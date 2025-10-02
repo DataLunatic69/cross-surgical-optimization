@@ -1,0 +1,220 @@
+2025-09-29 17:50:28 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-29 17:50:28 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-29 17:50:28 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-29 17:50:28 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-29 17:52:28 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-29 17:52:28 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-29 17:52:28 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-29 17:52:28 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-29 17:52:28 | INFO     | __main__:main:83 - ==================================================
+2025-09-29 17:52:28 | INFO     | __main__:main:84 - Database Initialization Starting
+2025-09-29 17:52:28 | INFO     | __main__:main:85 - ==================================================
+2025-09-29 17:52:28 | INFO     | __main__:main:86 - Database: localhost:5435/surgical_optimizer_db
+2025-09-29 17:52:28 | INFO     | __main__:main:89 - 
+1. Creating PostgreSQL extensions...
+2025-09-29 17:58:34 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-29 17:58:34 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-29 17:58:34 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-29 17:58:34 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-29 17:58:34 | INFO     | __main__:main:83 - ==================================================
+2025-09-29 17:58:34 | INFO     | __main__:main:84 - Database Initialization Starting
+2025-09-29 17:58:34 | INFO     | __main__:main:85 - ==================================================
+2025-09-29 17:58:34 | INFO     | __main__:main:86 - Database: localhost:5435/surgical_optimizer_db
+2025-09-29 17:58:34 | INFO     | __main__:main:89 - 
+1. Creating PostgreSQL extensions...
+2025-09-29 17:58:35 | WARNING  | __main__:create_extensions:77 - ⚠ Could not create extension 'uuid-ossp': 'Connection' object has no attribute 'commit'
+2025-09-29 18:00:32 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-29 18:00:32 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-29 18:00:32 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-29 18:00:32 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-29 18:00:32 | INFO     | __main__:main:94 - ==================================================
+2025-09-29 18:00:32 | INFO     | __main__:main:95 - Database Initialization Starting
+2025-09-29 18:00:32 | INFO     | __main__:main:96 - ==================================================
+2025-09-29 18:00:32 | INFO     | __main__:main:97 - Database: localhost:5435/surgical_optimizer_db
+2025-09-29 18:00:32 | INFO     | __main__:main:100 - 
+0. Verifying database connection...
+2025-09-29 18:00:32 | INFO     | __main__:verify_database_connection:85 - ✓ Database connection verified
+2025-09-29 18:00:32 | INFO     | __main__:main:106 - 
+1. Creating PostgreSQL extensions...
+2025-09-29 18:00:32 | INFO     | __main__:create_extensions:73 - ✓ Extension 'uuid-ossp' created or already exists
+2025-09-29 18:00:32 | INFO     | __main__:create_extensions:73 - ✓ Extension 'pgcrypto' created or already exists
+2025-09-29 18:00:32 | INFO     | __main__:main:110 - 
+2. Creating database schemas...
+2025-09-29 18:00:32 | INFO     | __main__:create_schemas:26 - ✓ Schema 'auth' created or already exists
+2025-09-29 18:00:32 | INFO     | __main__:create_schemas:26 - ✓ Schema 'hospital' created or already exists
+2025-09-29 18:00:32 | INFO     | __main__:create_schemas:26 - ✓ Schema 'training' created or already exists
+2025-09-29 18:00:32 | INFO     | __main__:create_schemas:26 - ✓ Schema 'prediction' created or already exists
+2025-09-29 18:00:32 | INFO     | __main__:create_schemas:26 - ✓ Schema 'analytics' created or already exists
+2025-09-29 18:00:32 | INFO     | __main__:main:114 - 
+3. Creating tables from models...
+2025-09-29 18:00:32 | INFO     | __main__:create_tables:37 - ✓ All tables created successfully
+2025-09-29 18:00:32 | INFO     | __main__:main:119 - 
+4. Verifying table creation...
+2025-09-29 18:00:32 | INFO     | __main__:verify_tables:60 - ✓ Schema 'auth' contains tables: api_keys, user_sessions, users
+2025-09-29 18:00:32 | INFO     | __main__:verify_tables:60 - ✓ Schema 'hospital' contains tables: hospital_configs, hospital_contributions, hospitals
+2025-09-29 18:00:32 | INFO     | __main__:verify_tables:60 - ✓ Schema 'training' contains tables: model_versions, training_participants, training_rounds, training_sessions
+2025-09-29 18:00:32 | INFO     | __main__:verify_tables:60 - ✓ Schema 'prediction' contains tables: prediction_feedback, predictions, surgical_outcomes
+2025-09-29 18:00:32 | INFO     | __main__:main:122 - 
+==================================================
+2025-09-29 18:00:32 | INFO     | __main__:main:124 - ✓ Database initialization completed successfully!
+2025-09-29 18:00:32 | INFO     | __main__:main:125 - 
+You can now run Alembic migrations to track schema changes:
+2025-09-29 18:00:32 | INFO     | __main__:main:126 -   alembic stamp head  # Mark current schema as up-to-date
+2025-09-29 18:00:32 | INFO     | __main__:main:127 -   alembic revision --autogenerate -m 'Your message'  # Create new migrations
+2025-09-29 18:24:01 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-29 18:24:01 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-29 18:24:01 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-29 18:24:01 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-29 18:24:02 | INFO     | app.db.redis_client:_connect:45 - Successfully connected to Redis
+2025-09-29 18:24:02 | INFO     | app.main:lifespan:24 - Starting up Surgical Optimizer application...
+2025-09-29 18:24:02 | INFO     | app.db.base:init_db:78 - Database tables created successfully
+2025-09-29 18:24:02 | INFO     | app.main:lifespan:29 - Database initialized successfully
+2025-09-29 18:24:02 | INFO     | app.main:lifespan:36 - Redis connection established
+2025-09-29 18:24:02 | INFO     | app.main:lifespan:40 - Application startup complete
+2025-09-29 18:51:31 | INFO     | app.main:lifespan:45 - Shutting down application...
+2025-09-29 18:51:31 | INFO     | app.db.redis_client:close:185 - Redis connection closed
+2025-09-29 18:51:31 | INFO     | app.main:lifespan:53 - Application shutdown complete
+2025-09-29 18:51:32 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-29 18:51:32 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-29 18:51:32 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-29 18:51:32 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-29 18:51:32 | INFO     | app.db.redis_client:_connect:45 - Successfully connected to Redis
+2025-09-29 18:51:32 | INFO     | app.main:lifespan:24 - Starting up Surgical Optimizer application...
+2025-09-29 18:51:32 | INFO     | app.db.base:init_db:78 - Database tables created successfully
+2025-09-29 18:51:32 | INFO     | app.main:lifespan:29 - Database initialized successfully
+2025-09-29 18:51:32 | INFO     | app.main:lifespan:36 - Redis connection established
+2025-09-29 18:51:32 | INFO     | app.main:lifespan:40 - Application startup complete
+2025-09-29 18:51:33 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-29 18:51:33 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-29 18:51:33 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-29 18:51:33 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-29 18:51:33 | INFO     | app.db.redis_client:_connect:45 - Successfully connected to Redis
+2025-09-29 18:51:33 | INFO     | app.main:lifespan:24 - Starting up Surgical Optimizer application...
+2025-09-29 18:51:34 | INFO     | app.db.base:init_db:78 - Database tables created successfully
+2025-09-29 18:51:34 | INFO     | app.main:lifespan:29 - Database initialized successfully
+2025-09-29 18:51:34 | INFO     | app.main:lifespan:36 - Redis connection established
+2025-09-29 18:51:34 | INFO     | app.main:lifespan:40 - Application startup complete
+2025-09-29 18:53:42 | INFO     | app.main:lifespan:45 - Shutting down application...
+2025-09-29 18:53:42 | INFO     | app.db.redis_client:close:185 - Redis connection closed
+2025-09-29 18:53:42 | INFO     | app.main:lifespan:53 - Application shutdown complete
+2025-09-29 18:53:43 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-29 18:53:43 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-29 18:53:43 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-29 18:53:43 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-29 18:53:43 | INFO     | app.db.redis_client:_connect:45 - Successfully connected to Redis
+2025-09-29 18:53:43 | INFO     | app.main:lifespan:24 - Starting up Surgical Optimizer application...
+2025-09-29 18:53:44 | INFO     | app.db.base:init_db:78 - Database tables created successfully
+2025-09-29 18:53:44 | INFO     | app.main:lifespan:29 - Database initialized successfully
+2025-09-29 18:53:44 | INFO     | app.main:lifespan:36 - Redis connection established
+2025-09-29 18:53:44 | INFO     | app.main:lifespan:40 - Application startup complete
+2025-09-29 18:53:44 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-29 18:53:44 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-29 18:53:44 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-29 18:53:44 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-29 18:53:44 | INFO     | app.db.redis_client:_connect:45 - Successfully connected to Redis
+2025-09-29 18:53:44 | INFO     | app.main:lifespan:24 - Starting up Surgical Optimizer application...
+2025-09-29 18:53:45 | INFO     | app.db.base:init_db:78 - Database tables created successfully
+2025-09-29 18:53:45 | INFO     | app.main:lifespan:29 - Database initialized successfully
+2025-09-29 18:53:45 | INFO     | app.main:lifespan:36 - Redis connection established
+2025-09-29 18:53:45 | INFO     | app.main:lifespan:40 - Application startup complete
+2025-09-30 00:06:44 | INFO     | app.main:lifespan:45 - Shutting down application...
+2025-09-30 00:06:44 | INFO     | app.db.redis_client:close:185 - Redis connection closed
+2025-09-30 00:06:44 | INFO     | app.main:lifespan:53 - Application shutdown complete
+2025-09-30 00:15:26 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-30 00:15:26 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-30 00:15:26 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-30 00:15:26 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-30 00:15:26 | INFO     | __main__:main:272 - ==================================================
+2025-09-30 00:15:26 | INFO     | __main__:main:273 - Generating Mock Surgical Data
+2025-09-30 00:15:26 | INFO     | __main__:main:274 - ==================================================
+2025-09-30 00:15:26 | INFO     | __main__:main:283 - 
+Generating data for Hospital 1...
+2025-09-30 00:15:26 | INFO     | __main__:generate_hospital_data:242 - Generated 100 cases for hospital 1
+2025-09-30 00:15:26 | INFO     | __main__:generate_hospital_data:243 - Saved to data\hospitals\hospital_1\surgical_cases.json
+2025-09-30 00:15:26 | INFO     | __main__:main:283 - 
+Generating data for Hospital 2...
+2025-09-30 00:15:26 | INFO     | __main__:generate_hospital_data:242 - Generated 100 cases for hospital 2
+2025-09-30 00:15:26 | INFO     | __main__:generate_hospital_data:243 - Saved to data\hospitals\hospital_2\surgical_cases.json
+2025-09-30 00:15:26 | INFO     | __main__:main:283 - 
+Generating data for Hospital 3...
+2025-09-30 00:15:26 | INFO     | __main__:generate_hospital_data:242 - Generated 100 cases for hospital 3
+2025-09-30 00:15:26 | INFO     | __main__:generate_hospital_data:243 - Saved to data\hospitals\hospital_3\surgical_cases.json
+2025-09-30 00:15:26 | INFO     | __main__:main:283 - 
+Generating data for Hospital 4...
+2025-09-30 00:15:26 | INFO     | __main__:generate_hospital_data:242 - Generated 100 cases for hospital 4
+2025-09-30 00:15:26 | INFO     | __main__:generate_hospital_data:243 - Saved to data\hospitals\hospital_4\surgical_cases.json
+2025-09-30 00:15:26 | INFO     | __main__:main:288 - 
+==================================================
+2025-09-30 00:15:26 | INFO     | __main__:main:289 - Generation Summary
+2025-09-30 00:15:26 | INFO     | __main__:main:290 - ==================================================
+2025-09-30 00:15:26 | INFO     | __main__:main:293 - 
+Hospital 1:
+2025-09-30 00:15:26 | INFO     | __main__:main:294 -   Total cases: 100
+2025-09-30 00:15:26 | INFO     | __main__:main:295 -   Success rate: 92.00%
+2025-09-30 00:15:26 | INFO     | __main__:main:296 -   Avg duration: 3.2 hours
+2025-09-30 00:15:26 | INFO     | __main__:main:297 -   Avg recovery: 5.7 days
+2025-09-30 00:15:26 | INFO     | __main__:main:298 -   Readmission rate: 2.00%
+2025-09-30 00:15:26 | INFO     | __main__:main:299 -   Case distribution: {'cardiac': 14, 'orthopedic': 34, 'neurological': 8, 'general': 33, 'oncological': 11}
+2025-09-30 00:15:26 | INFO     | __main__:main:293 - 
+Hospital 2:
+2025-09-30 00:15:26 | INFO     | __main__:main:294 -   Total cases: 100
+2025-09-30 00:15:26 | INFO     | __main__:main:295 -   Success rate: 88.00%
+2025-09-30 00:15:26 | INFO     | __main__:main:296 -   Avg duration: 3.1 hours
+2025-09-30 00:15:26 | INFO     | __main__:main:297 -   Avg recovery: 5.6 days
+2025-09-30 00:15:26 | INFO     | __main__:main:298 -   Readmission rate: 1.00%
+2025-09-30 00:15:26 | INFO     | __main__:main:299 -   Case distribution: {'cardiac': 10, 'orthopedic': 25, 'neurological': 8, 'general': 38, 'oncological': 19}
+2025-09-30 00:15:26 | INFO     | __main__:main:293 - 
+Hospital 3:
+2025-09-30 00:15:26 | INFO     | __main__:main:294 -   Total cases: 100
+2025-09-30 00:15:26 | INFO     | __main__:main:295 -   Success rate: 92.00%
+2025-09-30 00:15:26 | INFO     | __main__:main:296 -   Avg duration: 3.2 hours
+2025-09-30 00:15:26 | INFO     | __main__:main:297 -   Avg recovery: 6.0 days
+2025-09-30 00:15:26 | INFO     | __main__:main:298 -   Readmission rate: 6.00%
+2025-09-30 00:15:26 | INFO     | __main__:main:299 -   Case distribution: {'cardiac': 13, 'orthopedic': 23, 'neurological': 15, 'general': 38, 'oncological': 11}
+2025-09-30 00:15:26 | INFO     | __main__:main:293 - 
+Hospital 4:
+2025-09-30 00:15:26 | INFO     | __main__:main:294 -   Total cases: 100
+2025-09-30 00:15:26 | INFO     | __main__:main:295 -   Success rate: 95.00%
+2025-09-30 00:15:26 | INFO     | __main__:main:296 -   Avg duration: 3.3 hours
+2025-09-30 00:15:26 | INFO     | __main__:main:297 -   Avg recovery: 5.9 days
+2025-09-30 00:15:26 | INFO     | __main__:main:298 -   Readmission rate: 9.00%
+2025-09-30 00:15:26 | INFO     | __main__:main:299 -   Case distribution: {'cardiac': 20, 'orthopedic': 22, 'neurological': 8, 'general': 34, 'oncological': 16}
+2025-09-30 00:15:26 | INFO     | __main__:main:301 - 
+✓ Mock data generation completed successfully!
+2025-09-30 00:15:26 | INFO     | __main__:main:302 - Data saved in: ./data/hospitals/
+2025-09-30 00:22:17 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-30 00:22:17 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-30 00:22:17 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-30 00:22:17 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-30 00:26:19 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-30 00:26:19 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-30 00:26:19 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-30 00:26:19 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-30 00:28:16 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-30 00:28:16 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-30 00:28:16 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-30 00:28:16 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-30 00:28:41 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-30 00:28:41 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-30 00:28:41 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-30 00:28:41 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-30 00:51:40 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-30 00:51:40 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-30 00:51:40 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-30 00:51:40 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-30 00:53:43 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-30 00:53:43 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-30 00:53:43 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-30 00:53:43 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-30 01:01:26 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-30 01:01:26 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-30 01:01:26 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-30 01:01:26 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-30 10:38:01 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-30 10:38:01 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-30 10:38:01 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-30 10:38:01 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-09-30 10:43:37 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-09-30 10:43:37 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-09-30 10:43:37 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-09-30 10:43:37 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO

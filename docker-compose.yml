@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  # PostgreSQL for main database
+  postgres-surgical:
+    image: postgres:15-alpine
+    container_name: surgical-fl-postgres
+    environment:
+      POSTGRES_USER: surgical_admin
+      POSTGRES_PASSWORD: surgical_secure_pwd_2024
+      POSTGRES_DB: surgical_optimizer_db
+      POSTGRES_HOST_AUTH_METHOD: md5
+    ports:
+      - "5435:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backend/scripts/init_db.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - surgical-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U surgical_admin -d surgical_optimizer_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis for caching and real-time data
+  redis-surgical:
+    image: redis:7-alpine
+    container_name: surgical-fl-redis
+    command: redis-server --appendonly yes --requirepass surgical_redis_2024
+    ports:
+      - "6381:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - surgical-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
+    name: surgical_postgres_data
+  redis_data:
+    name: surgical_redis_data
+
+networks:
+  surgical-network:
+    name: surgical_optimizer_network
+    driver: bridge

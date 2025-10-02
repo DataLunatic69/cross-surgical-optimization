@@ -1,0 +1,6732 @@
+[
+  {
+    "case_id": "CASE_000000",
+    "patient_profile": {
+      "age": 52,
+      "gender": "female",
+      "bmi": 25.7,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.9,
+        "WBC": 6.4,
+        "Platelets": 219.0,
+        "Creatinine": 1.05,
+        "INR": 1.04
+      },
+      "vital_signs": {
+        "BP_systolic": 115.0,
+        "BP_diastolic": 87.0,
+        "Heart_rate": 84.0,
+        "Temperature": 37.1,
+        "SpO2": 100.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Total Knee Replacement",
+    "urgency": "elective",
+    "surgeon_experience_years": 24,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Power Tools",
+      "Navigation System"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 2.9,
+    "blood_loss_ml": 372.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000001",
+    "patient_profile": {
+      "age": 70,
+      "gender": "male",
+      "bmi": 22.0,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.1,
+        "WBC": 4.5,
+        "Platelets": 350.0,
+        "Creatinine": 0.97,
+        "INR": 1.06
+      },
+      "vital_signs": {
+        "BP_systolic": 125.0,
+        "BP_diastolic": 76.0,
+        "Heart_rate": 78.0,
+        "Temperature": 36.6,
+        "SpO2": 100.0
+      },
+      "risk_factors": [
+        "Advanced Age"
+      ]
+    },
+    "surgery_type": "oncological",
+    "procedure_name": "Lung Resection",
+    "urgency": "elective",
+    "surgeon_experience_years": 29,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 2.6,
+    "blood_loss_ml": 281.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 8,
+    "readmission_30_days": false,
+    "recommended_approach": "Wide excision with negative margins. Consider sentinel node biopsy.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000002",
+    "patient_profile": {
+      "age": 66,
+      "gender": "female",
+      "bmi": 33.0,
+      "medical_history": [
+        "Heart Disease"
+      ],
+      "current_medications": [
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.8,
+        "WBC": 6.9,
+        "Platelets": 268.0,
+        "Creatinine": 0.84,
+        "INR": 0.95
+      },
+      "vital_signs": {
+        "BP_systolic": 133.0,
+        "BP_diastolic": 71.0,
+        "Heart_rate": 72.0,
+        "Temperature": 37.1,
+        "SpO2": 97.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Advanced Age"
+      ]
+    },
+    "surgery_type": "oncological",
+    "procedure_name": "Lung Resection",
+    "urgency": "elective",
+    "surgeon_experience_years": 18,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 4.4,
+    "blood_loss_ml": 240.0,
+    "complications": [
+      "None"
+    ],
+    "success": false,
+    "recovery_days": 6,
+    "readmission_30_days": true,
+    "recommended_approach": "Wide excision with negative margins. Consider sentinel node biopsy.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000003",
+    "patient_profile": {
+      "age": 44,
+      "gender": "male",
+      "bmi": 30.7,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.1,
+        "WBC": 7.3,
+        "Platelets": 191.0,
+        "Creatinine": 0.8,
+        "INR": 0.96
+      },
+      "vital_signs": {
+        "BP_systolic": 139.0,
+        "BP_diastolic": 76.0,
+        "Heart_rate": 65.0,
+        "Temperature": 37.1,
+        "SpO2": 96.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Smoking"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Appendectomy",
+    "urgency": "emergency",
+    "surgeon_experience_years": 17,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Energy Devices",
+      "Laparoscopic Equipment"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 2.4,
+    "blood_loss_ml": 54.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 1,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000004",
+    "patient_profile": {
+      "age": 36,
+      "gender": "female",
+      "bmi": 21.9,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.2,
+        "WBC": 10.9,
+        "Platelets": 181.0,
+        "Creatinine": 0.6,
+        "INR": 0.97
+      },
+      "vital_signs": {
+        "BP_systolic": 117.0,
+        "BP_diastolic": 75.0,
+        "Heart_rate": 75.0,
+        "Temperature": 36.5,
+        "SpO2": 96.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Hip Replacement",
+    "urgency": "urgent",
+    "surgeon_experience_years": 19,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Power Tools",
+      "C-Arm"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 3.8,
+    "blood_loss_ml": 419.0,
+    "complications": [
+      "Infection",
+      "Delayed healing"
+    ],
+    "success": true,
+    "recovery_days": 6,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000005",
+    "patient_profile": {
+      "age": 18,
+      "gender": "male",
+      "bmi": 23.7,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.6,
+        "WBC": 9.4,
+        "Platelets": 184.0,
+        "Creatinine": 0.63,
+        "INR": 0.95
+      },
+      "vital_signs": {
+        "BP_systolic": 126.0,
+        "BP_diastolic": 89.0,
+        "Heart_rate": 82.0,
+        "Temperature": 36.7,
+        "SpO2": 96.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "oncological",
+    "procedure_name": "Liver Resection",
+    "urgency": "elective",
+    "surgeon_experience_years": 24,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 4.2,
+    "blood_loss_ml": 225.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 7,
+    "readmission_30_days": false,
+    "recommended_approach": "Wide excision with negative margins. Consider sentinel node biopsy.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000006",
+    "patient_profile": {
+      "age": 53,
+      "gender": "male",
+      "bmi": 34.2,
+      "medical_history": [
+        "Asthma",
+        "Hypertension",
+        "Heart Disease"
+      ],
+      "current_medications": [
+        "Aspirin",
+        "Metformin",
+        "Omeprazole"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.5,
+        "WBC": 9.4,
+        "Platelets": 295.0,
+        "Creatinine": 0.92,
+        "INR": 0.92
+      },
+      "vital_signs": {
+        "BP_systolic": 138.0,
+        "BP_diastolic": 71.0,
+        "Heart_rate": 81.0,
+        "Temperature": 36.9,
+        "SpO2": 100.0
+      },
+      "risk_factors": [
+        "Obesity"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Appendectomy",
+    "urgency": "elective",
+    "surgeon_experience_years": 30,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 1.8,
+    "blood_loss_ml": 240.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000007",
+    "patient_profile": {
+      "age": 52,
+      "gender": "female",
+      "bmi": 31.2,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.4,
+        "WBC": 9.2,
+        "Platelets": 235.0,
+        "Creatinine": 0.65,
+        "INR": 0.91
+      },
+      "vital_signs": {
+        "BP_systolic": 126.0,
+        "BP_diastolic": 79.0,
+        "Heart_rate": 69.0,
+        "Temperature": 37.0,
+        "SpO2": 97.0
+      },
+      "risk_factors": [
+        "Obesity"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Hip Replacement",
+    "urgency": "elective",
+    "surgeon_experience_years": 19,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Navigation System",
+      "C-Arm"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 2.9,
+    "blood_loss_ml": 333.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 7,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000008",
+    "patient_profile": {
+      "age": 76,
+      "gender": "female",
+      "bmi": 21.3,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.8,
+        "WBC": 9.5,
+        "Platelets": 325.0,
+        "Creatinine": 1.16,
+        "INR": 0.93
+      },
+      "vital_signs": {
+        "BP_systolic": 139.0,
+        "BP_diastolic": 80.0,
+        "Heart_rate": 68.0,
+        "Temperature": 36.9,
+        "SpO2": 99.0
+      },
+      "risk_factors": [
+        "Advanced Age"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Cholecystectomy",
+    "urgency": "elective",
+    "surgeon_experience_years": 21,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 3.0,
+    "blood_loss_ml": 51.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 3,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000009",
+    "patient_profile": {
+      "age": 44,
+      "gender": "female",
+      "bmi": 30.8,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.4,
+        "WBC": 7.8,
+        "Platelets": 279.0,
+        "Creatinine": 0.76,
+        "INR": 0.93
+      },
+      "vital_signs": {
+        "BP_systolic": 129.0,
+        "BP_diastolic": 75.0,
+        "Heart_rate": 77.0,
+        "Temperature": 37.1,
+        "SpO2": 99.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Smoking"
+      ]
+    },
+    "surgery_type": "oncological",
+    "procedure_name": "Lung Resection",
+    "urgency": "elective",
+    "surgeon_experience_years": 17,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 4.2,
+    "blood_loss_ml": 353.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Wide excision with negative margins. Consider sentinel node biopsy.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000010",
+    "patient_profile": {
+      "age": 36,
+      "gender": "male",
+      "bmi": 19.2,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.7,
+        "WBC": 5.5,
+        "Platelets": 300.0,
+        "Creatinine": 0.72,
+        "INR": 1.07
+      },
+      "vital_signs": {
+        "BP_systolic": 134.0,
+        "BP_diastolic": 79.0,
+        "Heart_rate": 78.0,
+        "Temperature": 37.1,
+        "SpO2": 100.0
+      },
+      "risk_factors": [
+        "Smoking"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "ACL Repair",
+    "urgency": "urgent",
+    "surgeon_experience_years": 7,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Power Tools",
+      "C-Arm"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 2.9,
+    "blood_loss_ml": 431.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 3,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000011",
+    "patient_profile": {
+      "age": 65,
+      "gender": "male",
+      "bmi": 26.7,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.2,
+        "WBC": 5.1,
+        "Platelets": 219.0,
+        "Creatinine": 1.1,
+        "INR": 0.9
+      },
+      "vital_signs": {
+        "BP_systolic": 129.0,
+        "BP_diastolic": 84.0,
+        "Heart_rate": 92.0,
+        "Temperature": 37.2,
+        "SpO2": 97.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "general",
+    "procedure_name": "Hernia Repair",
+    "urgency": "urgent",
+    "surgeon_experience_years": 10,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 3.0,
+    "blood_loss_ml": 82.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000012",
+    "patient_profile": {
+      "age": 18,
+      "gender": "female",
+      "bmi": 31.1,
+      "medical_history": [
+        "Hypertension"
+      ],
+      "current_medications": [
+        "Aspirin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.1,
+        "WBC": 6.0,
+        "Platelets": 206.0,
+        "Creatinine": 1.02,
+        "INR": 0.98
+      },
+      "vital_signs": {
+        "BP_systolic": 131.0,
+        "BP_diastolic": 79.0,
+        "Heart_rate": 77.0,
+        "Temperature": 37.1,
+        "SpO2": 96.0
+      },
+      "risk_factors": [
+        "Obesity"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Cholecystectomy",
+    "urgency": "elective",
+    "surgeon_experience_years": 27,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 2.2,
+    "blood_loss_ml": 67.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 2,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000013",
+    "patient_profile": {
+      "age": 19,
+      "gender": "female",
+      "bmi": 24.3,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.0,
+        "WBC": 7.3,
+        "Platelets": 230.0,
+        "Creatinine": 1.16,
+        "INR": 0.94
+      },
+      "vital_signs": {
+        "BP_systolic": 113.0,
+        "BP_diastolic": 75.0,
+        "Heart_rate": 94.0,
+        "Temperature": 36.8,
+        "SpO2": 100.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "cardiac",
+    "procedure_name": "Pacemaker Implantation",
+    "urgency": "elective",
+    "surgeon_experience_years": 6,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Heart-Lung Machine",
+      "ECMO"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 5.2,
+    "blood_loss_ml": 377.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 10,
+    "readmission_30_days": false,
+    "recommended_approach": "Median sternotomy with cardiopulmonary bypass. Consider minimally invasive approach if suitable.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000014",
+    "patient_profile": {
+      "age": 81,
+      "gender": "male",
+      "bmi": 20.5,
+      "medical_history": [
+        "Asthma",
+        "Hypertension",
+        "Arthritis"
+      ],
+      "current_medications": [
+        "Omeprazole",
+        "Lisinopril",
+        "Metformin"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.6,
+        "WBC": 6.2,
+        "Platelets": 297.0,
+        "Creatinine": 0.65,
+        "INR": 0.98
+      },
+      "vital_signs": {
+        "BP_systolic": 112.0,
+        "BP_diastolic": 90.0,
+        "Heart_rate": 67.0,
+        "Temperature": 37.4,
+        "SpO2": 96.0
+      },
+      "risk_factors": [
+        "Advanced Age"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Hip Replacement",
+    "urgency": "elective",
+    "surgeon_experience_years": 13,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Power Tools",
+      "Navigation System"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 2.8,
+    "blood_loss_ml": 340.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 4,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000015",
+    "patient_profile": {
+      "age": 20,
+      "gender": "female",
+      "bmi": 33.5,
+      "medical_history": [
+        "Asthma"
+      ],
+      "current_medications": [
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.1,
+        "WBC": 6.1,
+        "Platelets": 251.0,
+        "Creatinine": 0.65,
+        "INR": 1.05
+      },
+      "vital_signs": {
+        "BP_systolic": 114.0,
+        "BP_diastolic": 76.0,
+        "Heart_rate": 80.0,
+        "Temperature": 37.0,
+        "SpO2": 99.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Smoking"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Appendectomy",
+    "urgency": "elective",
+    "surgeon_experience_years": 13,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 1.9,
+    "blood_loss_ml": 127.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 6,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000016",
+    "patient_profile": {
+      "age": 71,
+      "gender": "male",
+      "bmi": 29.6,
+      "medical_history": [
+        "Diabetes",
+        "Asthma",
+        "Arthritis"
+      ],
+      "current_medications": [
+        "Lisinopril",
+        "Atorvastatin",
+        "Aspirin"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.4,
+        "WBC": 8.5,
+        "Platelets": 397.0,
+        "Creatinine": 1.12,
+        "INR": 1.03
+      },
+      "vital_signs": {
+        "BP_systolic": 132.0,
+        "BP_diastolic": 87.0,
+        "Heart_rate": 91.0,
+        "Temperature": 36.9,
+        "SpO2": 99.0
+      },
+      "risk_factors": [
+        "Advanced Age",
+        "Smoking",
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "cardiac",
+    "procedure_name": "CABG",
+    "urgency": "urgent",
+    "surgeon_experience_years": 9,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "IABP",
+      "ECMO"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 4.1,
+    "blood_loss_ml": 386.0,
+    "complications": [
+      "Pain"
+    ],
+    "success": true,
+    "recovery_days": 8,
+    "readmission_30_days": false,
+    "recommended_approach": "Median sternotomy with cardiopulmonary bypass. Consider minimally invasive approach if suitable.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000017",
+    "patient_profile": {
+      "age": 60,
+      "gender": "male",
+      "bmi": 34.7,
+      "medical_history": [
+        "Arthritis",
+        "Hypertension"
+      ],
+      "current_medications": [
+        "Lisinopril",
+        "Metformin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.1,
+        "WBC": 4.9,
+        "Platelets": 278.0,
+        "Creatinine": 0.71,
+        "INR": 1.04
+      },
+      "vital_signs": {
+        "BP_systolic": 122.0,
+        "BP_diastolic": 85.0,
+        "Heart_rate": 90.0,
+        "Temperature": 37.5,
+        "SpO2": 98.0
+      },
+      "risk_factors": [
+        "Obesity"
+      ]
+    },
+    "surgery_type": "neurological",
+    "procedure_name": "Tumor Resection",
+    "urgency": "elective",
+    "surgeon_experience_years": 13,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Microscope",
+      "Neuromonitoring"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 5.7,
+    "blood_loss_ml": 222.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 12,
+    "readmission_30_days": false,
+    "recommended_approach": "Microsurgical technique with neuromonitoring. Preserve neural structures.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000018",
+    "patient_profile": {
+      "age": 65,
+      "gender": "female",
+      "bmi": 29.7,
+      "medical_history": [
+        "Asthma",
+        "Hypertension"
+      ],
+      "current_medications": [
+        "Metformin",
+        "Aspirin"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.4,
+        "WBC": 8.2,
+        "Platelets": 153.0,
+        "Creatinine": 1.03,
+        "INR": 0.98
+      },
+      "vital_signs": {
+        "BP_systolic": 139.0,
+        "BP_diastolic": 86.0,
+        "Heart_rate": 61.0,
+        "Temperature": 37.3,
+        "SpO2": 95.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "oncological",
+    "procedure_name": "Colon Resection",
+    "urgency": "elective",
+    "surgeon_experience_years": 6,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 4.2,
+    "blood_loss_ml": 232.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 6,
+    "readmission_30_days": false,
+    "recommended_approach": "Wide excision with negative margins. Consider sentinel node biopsy.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000019",
+    "patient_profile": {
+      "age": 81,
+      "gender": "female",
+      "bmi": 29.6,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.4,
+        "WBC": 10.7,
+        "Platelets": 326.0,
+        "Creatinine": 1.08,
+        "INR": 1.02
+      },
+      "vital_signs": {
+        "BP_systolic": 127.0,
+        "BP_diastolic": 80.0,
+        "Heart_rate": 85.0,
+        "Temperature": 37.5,
+        "SpO2": 95.0
+      },
+      "risk_factors": [
+        "Advanced Age"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "ACL Repair",
+    "urgency": "urgent",
+    "surgeon_experience_years": 4,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Navigation System",
+      "C-Arm"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 3.9,
+    "blood_loss_ml": 412.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 4,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000020",
+    "patient_profile": {
+      "age": 70,
+      "gender": "female",
+      "bmi": 29.2,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.4,
+        "WBC": 8.3,
+        "Platelets": 345.0,
+        "Creatinine": 0.9,
+        "INR": 1.0
+      },
+      "vital_signs": {
+        "BP_systolic": 113.0,
+        "BP_diastolic": 86.0,
+        "Heart_rate": 72.0,
+        "Temperature": 37.0,
+        "SpO2": 99.0
+      },
+      "risk_factors": [
+        "Advanced Age",
+        "Smoking"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Total Knee Replacement",
+    "urgency": "emergency",
+    "surgeon_experience_years": 26,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Navigation System",
+      "Power Tools"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 3.4,
+    "blood_loss_ml": 320.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 3,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000021",
+    "patient_profile": {
+      "age": 29,
+      "gender": "male",
+      "bmi": 28.7,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.5,
+        "WBC": 6.7,
+        "Platelets": 380.0,
+        "Creatinine": 1.17,
+        "INR": 1.08
+      },
+      "vital_signs": {
+        "BP_systolic": 118.0,
+        "BP_diastolic": 76.0,
+        "Heart_rate": 92.0,
+        "Temperature": 37.4,
+        "SpO2": 97.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Spinal Fusion",
+    "urgency": "urgent",
+    "surgeon_experience_years": 12,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "C-Arm",
+      "Navigation System"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 2.3,
+    "blood_loss_ml": 381.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 4,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000022",
+    "patient_profile": {
+      "age": 31,
+      "gender": "male",
+      "bmi": 21.7,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.1,
+        "WBC": 7.3,
+        "Platelets": 209.0,
+        "Creatinine": 0.86,
+        "INR": 0.9
+      },
+      "vital_signs": {
+        "BP_systolic": 135.0,
+        "BP_diastolic": 85.0,
+        "Heart_rate": 60.0,
+        "Temperature": 37.0,
+        "SpO2": 96.0
+      },
+      "risk_factors": [
+        "Smoking"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Spinal Fusion",
+    "urgency": "urgent",
+    "surgeon_experience_years": 14,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "C-Arm",
+      "Navigation System"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 3.9,
+    "blood_loss_ml": 332.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000023",
+    "patient_profile": {
+      "age": 76,
+      "gender": "female",
+      "bmi": 32.5,
+      "medical_history": [
+        "Asthma",
+        "Diabetes",
+        "Arthritis"
+      ],
+      "current_medications": [
+        "Metformin",
+        "Omeprazole",
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.7,
+        "WBC": 7.7,
+        "Platelets": 235.0,
+        "Creatinine": 0.95,
+        "INR": 1.07
+      },
+      "vital_signs": {
+        "BP_systolic": 128.0,
+        "BP_diastolic": 77.0,
+        "Heart_rate": 65.0,
+        "Temperature": 37.3,
+        "SpO2": 99.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Advanced Age",
+        "Smoking",
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Bowel Resection",
+    "urgency": "emergency",
+    "surgeon_experience_years": 23,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 2.0,
+    "blood_loss_ml": 90.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 1,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000024",
+    "patient_profile": {
+      "age": 26,
+      "gender": "male",
+      "bmi": 20.4,
+      "medical_history": [
+        "Diabetes"
+      ],
+      "current_medications": [
+        "Omeprazole"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.0,
+        "WBC": 9.3,
+        "Platelets": 186.0,
+        "Creatinine": 1.13,
+        "INR": 1.03
+      },
+      "vital_signs": {
+        "BP_systolic": 135.0,
+        "BP_diastolic": 86.0,
+        "Heart_rate": 90.0,
+        "Temperature": 37.2,
+        "SpO2": 97.0
+      },
+      "risk_factors": [
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Bowel Resection",
+    "urgency": "emergency",
+    "surgeon_experience_years": 24,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 1.4,
+    "blood_loss_ml": 230.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 1,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000025",
+    "patient_profile": {
+      "age": 43,
+      "gender": "female",
+      "bmi": 22.9,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.4,
+        "WBC": 4.9,
+        "Platelets": 386.0,
+        "Creatinine": 1.17,
+        "INR": 0.92
+      },
+      "vital_signs": {
+        "BP_systolic": 113.0,
+        "BP_diastolic": 73.0,
+        "Heart_rate": 72.0,
+        "Temperature": 36.6,
+        "SpO2": 96.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "general",
+    "procedure_name": "Appendectomy",
+    "urgency": "elective",
+    "surgeon_experience_years": 6,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 1.2,
+    "blood_loss_ml": 73.0,
+    "complications": [
+      "None"
+    ],
+    "success": false,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000026",
+    "patient_profile": {
+      "age": 41,
+      "gender": "male",
+      "bmi": 20.6,
+      "medical_history": [
+        "Diabetes"
+      ],
+      "current_medications": [
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.9,
+        "WBC": 7.8,
+        "Platelets": 196.0,
+        "Creatinine": 0.83,
+        "INR": 1.06
+      },
+      "vital_signs": {
+        "BP_systolic": 128.0,
+        "BP_diastolic": 78.0,
+        "Heart_rate": 80.0,
+        "Temperature": 36.7,
+        "SpO2": 99.0
+      },
+      "risk_factors": [
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Appendectomy",
+    "urgency": "elective",
+    "surgeon_experience_years": 24,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Energy Devices",
+      "Laparoscopic Equipment"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 2.0,
+    "blood_loss_ml": 99.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 4,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000027",
+    "patient_profile": {
+      "age": 35,
+      "gender": "male",
+      "bmi": 27.3,
+      "medical_history": [
+        "Hypertension"
+      ],
+      "current_medications": [
+        "Lisinopril"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.6,
+        "WBC": 9.1,
+        "Platelets": 383.0,
+        "Creatinine": 0.88,
+        "INR": 0.96
+      },
+      "vital_signs": {
+        "BP_systolic": 117.0,
+        "BP_diastolic": 82.0,
+        "Heart_rate": 87.0,
+        "Temperature": 37.3,
+        "SpO2": 99.0
+      },
+      "risk_factors": [
+        "Smoking"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Cholecystectomy",
+    "urgency": "elective",
+    "surgeon_experience_years": 17,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Energy Devices",
+      "Laparoscopic Equipment"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 1.1,
+    "blood_loss_ml": 55.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 1,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000028",
+    "patient_profile": {
+      "age": 51,
+      "gender": "female",
+      "bmi": 32.2,
+      "medical_history": [
+        "Asthma",
+        "Heart Disease",
+        "Diabetes"
+      ],
+      "current_medications": [
+        "Lisinopril",
+        "Omeprazole",
+        "Aspirin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 16.0,
+        "WBC": 7.9,
+        "Platelets": 245.0,
+        "Creatinine": 1.17,
+        "INR": 0.97
+      },
+      "vital_signs": {
+        "BP_systolic": 138.0,
+        "BP_diastolic": 74.0,
+        "Heart_rate": 84.0,
+        "Temperature": 37.3,
+        "SpO2": 97.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Smoking",
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Cholecystectomy",
+    "urgency": "urgent",
+    "surgeon_experience_years": 24,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 2.3,
+    "blood_loss_ml": 128.0,
+    "complications": [
+      "Infection",
+      "Pain"
+    ],
+    "success": true,
+    "recovery_days": 2,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000029",
+    "patient_profile": {
+      "age": 81,
+      "gender": "female",
+      "bmi": 21.6,
+      "medical_history": [
+        "Asthma",
+        "Hypertension",
+        "Heart Disease"
+      ],
+      "current_medications": [
+        "Omeprazole",
+        "Lisinopril",
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.9,
+        "WBC": 10.5,
+        "Platelets": 258.0,
+        "Creatinine": 0.79,
+        "INR": 0.98
+      },
+      "vital_signs": {
+        "BP_systolic": 123.0,
+        "BP_diastolic": 79.0,
+        "Heart_rate": 98.0,
+        "Temperature": 37.4,
+        "SpO2": 97.0
+      },
+      "risk_factors": [
+        "Advanced Age"
+      ]
+    },
+    "surgery_type": "neurological",
+    "procedure_name": "VP Shunt",
+    "urgency": "elective",
+    "surgeon_experience_years": 6,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Neuromonitoring",
+      "Navigation System"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 6.2,
+    "blood_loss_ml": 206.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 12,
+    "readmission_30_days": false,
+    "recommended_approach": "Microsurgical technique with neuromonitoring. Preserve neural structures.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000030",
+    "patient_profile": {
+      "age": 81,
+      "gender": "female",
+      "bmi": 20.4,
+      "medical_history": [
+        "Asthma"
+      ],
+      "current_medications": [
+        "Aspirin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.3,
+        "WBC": 4.7,
+        "Platelets": 155.0,
+        "Creatinine": 1.07,
+        "INR": 0.94
+      },
+      "vital_signs": {
+        "BP_systolic": 115.0,
+        "BP_diastolic": 88.0,
+        "Heart_rate": 84.0,
+        "Temperature": 37.4,
+        "SpO2": 99.0
+      },
+      "risk_factors": [
+        "Advanced Age"
+      ]
+    },
+    "surgery_type": "cardiac",
+    "procedure_name": "Valve Replacement",
+    "urgency": "elective",
+    "surgeon_experience_years": 15,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Heart-Lung Machine",
+      "ECMO"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 4.2,
+    "blood_loss_ml": 520.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 10,
+    "readmission_30_days": false,
+    "recommended_approach": "Median sternotomy with cardiopulmonary bypass. Consider minimally invasive approach if suitable.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000031",
+    "patient_profile": {
+      "age": 32,
+      "gender": "male",
+      "bmi": 33.1,
+      "medical_history": [
+        "Hypertension"
+      ],
+      "current_medications": [
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.3,
+        "WBC": 5.7,
+        "Platelets": 168.0,
+        "Creatinine": 1.06,
+        "INR": 0.93
+      },
+      "vital_signs": {
+        "BP_systolic": 117.0,
+        "BP_diastolic": 74.0,
+        "Heart_rate": 62.0,
+        "Temperature": 36.9,
+        "SpO2": 95.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Smoking"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Appendectomy",
+    "urgency": "urgent",
+    "surgeon_experience_years": 29,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Energy Devices",
+      "Laparoscopic Equipment"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 1.0,
+    "blood_loss_ml": 174.0,
+    "complications": [
+      "None"
+    ],
+    "success": false,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000032",
+    "patient_profile": {
+      "age": 63,
+      "gender": "male",
+      "bmi": 29.0,
+      "medical_history": [
+        "Arthritis"
+      ],
+      "current_medications": [
+        "Metformin"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.0,
+        "WBC": 4.5,
+        "Platelets": 368.0,
+        "Creatinine": 0.73,
+        "INR": 1.05
+      },
+      "vital_signs": {
+        "BP_systolic": 115.0,
+        "BP_diastolic": 87.0,
+        "Heart_rate": 82.0,
+        "Temperature": 37.0,
+        "SpO2": 100.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Total Knee Replacement",
+    "urgency": "elective",
+    "surgeon_experience_years": 7,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Power Tools",
+      "Navigation System"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 2.6,
+    "blood_loss_ml": 408.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 7,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000033",
+    "patient_profile": {
+      "age": 25,
+      "gender": "male",
+      "bmi": 32.9,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.5,
+        "WBC": 6.4,
+        "Platelets": 359.0,
+        "Creatinine": 1.0,
+        "INR": 0.97
+      },
+      "vital_signs": {
+        "BP_systolic": 111.0,
+        "BP_diastolic": 84.0,
+        "Heart_rate": 83.0,
+        "Temperature": 36.9,
+        "SpO2": 99.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Smoking"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "ACL Repair",
+    "urgency": "elective",
+    "surgeon_experience_years": 10,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Navigation System",
+      "Power Tools"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 2.6,
+    "blood_loss_ml": 320.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000034",
+    "patient_profile": {
+      "age": 42,
+      "gender": "male",
+      "bmi": 30.5,
+      "medical_history": [
+        "Arthritis"
+      ],
+      "current_medications": [
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.8,
+        "WBC": 4.6,
+        "Platelets": 380.0,
+        "Creatinine": 0.95,
+        "INR": 1.08
+      },
+      "vital_signs": {
+        "BP_systolic": 124.0,
+        "BP_diastolic": 76.0,
+        "Heart_rate": 96.0,
+        "Temperature": 37.1,
+        "SpO2": 100.0
+      },
+      "risk_factors": [
+        "Obesity"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Spinal Fusion",
+    "urgency": "elective",
+    "surgeon_experience_years": 17,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Navigation System",
+      "Power Tools"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 3.8,
+    "blood_loss_ml": 439.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000035",
+    "patient_profile": {
+      "age": 62,
+      "gender": "male",
+      "bmi": 32.0,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 16.0,
+        "WBC": 9.4,
+        "Platelets": 201.0,
+        "Creatinine": 0.83,
+        "INR": 1.02
+      },
+      "vital_signs": {
+        "BP_systolic": 136.0,
+        "BP_diastolic": 71.0,
+        "Heart_rate": 97.0,
+        "Temperature": 37.0,
+        "SpO2": 98.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Smoking"
+      ]
+    },
+    "surgery_type": "cardiac",
+    "procedure_name": "CABG",
+    "urgency": "elective",
+    "surgeon_experience_years": 14,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "ECMO",
+      "IABP"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 4.8,
+    "blood_loss_ml": 455.0,
+    "complications": [
+      "Pain",
+      "Delayed healing"
+    ],
+    "success": false,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Median sternotomy with cardiopulmonary bypass. Consider minimally invasive approach if suitable.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000036",
+    "patient_profile": {
+      "age": 75,
+      "gender": "female",
+      "bmi": 19.4,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.6,
+        "WBC": 6.7,
+        "Platelets": 386.0,
+        "Creatinine": 0.98,
+        "INR": 1.08
+      },
+      "vital_signs": {
+        "BP_systolic": 111.0,
+        "BP_diastolic": 89.0,
+        "Heart_rate": 69.0,
+        "Temperature": 37.1,
+        "SpO2": 100.0
+      },
+      "risk_factors": [
+        "Advanced Age",
+        "Smoking"
+      ]
+    },
+    "surgery_type": "cardiac",
+    "procedure_name": "CABG",
+    "urgency": "elective",
+    "surgeon_experience_years": 22,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Heart-Lung Machine",
+      "ECMO"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 3.8,
+    "blood_loss_ml": 504.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 9,
+    "readmission_30_days": false,
+    "recommended_approach": "Median sternotomy with cardiopulmonary bypass. Consider minimally invasive approach if suitable.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000037",
+    "patient_profile": {
+      "age": 55,
+      "gender": "male",
+      "bmi": 22.6,
+      "medical_history": [
+        "Heart Disease",
+        "Diabetes"
+      ],
+      "current_medications": [
+        "Aspirin",
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.6,
+        "WBC": 8.0,
+        "Platelets": 365.0,
+        "Creatinine": 1.1,
+        "INR": 1.01
+      },
+      "vital_signs": {
+        "BP_systolic": 134.0,
+        "BP_diastolic": 75.0,
+        "Heart_rate": 71.0,
+        "Temperature": 36.8,
+        "SpO2": 99.0
+      },
+      "risk_factors": [
+        "Smoking",
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "oncological",
+    "procedure_name": "Liver Resection",
+    "urgency": "urgent",
+    "surgeon_experience_years": 13,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 4.4,
+    "blood_loss_ml": 206.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 6,
+    "readmission_30_days": false,
+    "recommended_approach": "Wide excision with negative margins. Consider sentinel node biopsy.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000038",
+    "patient_profile": {
+      "age": 85,
+      "gender": "male",
+      "bmi": 22.3,
+      "medical_history": [
+        "Diabetes",
+        "Heart Disease"
+      ],
+      "current_medications": [
+        "Omeprazole",
+        "Aspirin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.1,
+        "WBC": 10.4,
+        "Platelets": 349.0,
+        "Creatinine": 0.95,
+        "INR": 1.07
+      },
+      "vital_signs": {
+        "BP_systolic": 129.0,
+        "BP_diastolic": 88.0,
+        "Heart_rate": 91.0,
+        "Temperature": 37.1,
+        "SpO2": 99.0
+      },
+      "risk_factors": [
+        "Advanced Age",
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Hip Replacement",
+    "urgency": "elective",
+    "surgeon_experience_years": 12,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Power Tools",
+      "C-Arm"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 2.0,
+    "blood_loss_ml": 265.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000039",
+    "patient_profile": {
+      "age": 61,
+      "gender": "female",
+      "bmi": 20.5,
+      "medical_history": [
+        "Diabetes"
+      ],
+      "current_medications": [
+        "Metformin"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.5,
+        "WBC": 4.7,
+        "Platelets": 258.0,
+        "Creatinine": 1.12,
+        "INR": 1.05
+      },
+      "vital_signs": {
+        "BP_systolic": 140.0,
+        "BP_diastolic": 76.0,
+        "Heart_rate": 70.0,
+        "Temperature": 36.7,
+        "SpO2": 95.0
+      },
+      "risk_factors": [
+        "Smoking",
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "cardiac",
+    "procedure_name": "CABG",
+    "urgency": "elective",
+    "surgeon_experience_years": 20,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Heart-Lung Machine",
+      "ECMO"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 4.1,
+    "blood_loss_ml": 442.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 9,
+    "readmission_30_days": false,
+    "recommended_approach": "Median sternotomy with cardiopulmonary bypass. Consider minimally invasive approach if suitable.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000040",
+    "patient_profile": {
+      "age": 53,
+      "gender": "female",
+      "bmi": 25.2,
+      "medical_history": [
+        "Hypertension",
+        "Arthritis"
+      ],
+      "current_medications": [
+        "Metformin",
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.2,
+        "WBC": 9.6,
+        "Platelets": 167.0,
+        "Creatinine": 1.03,
+        "INR": 0.99
+      },
+      "vital_signs": {
+        "BP_systolic": 129.0,
+        "BP_diastolic": 70.0,
+        "Heart_rate": 78.0,
+        "Temperature": 37.4,
+        "SpO2": 100.0
+      },
+      "risk_factors": [
+        "Smoking"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Appendectomy",
+    "urgency": "urgent",
+    "surgeon_experience_years": 11,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 2.7,
+    "blood_loss_ml": 228.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000041",
+    "patient_profile": {
+      "age": 57,
+      "gender": "male",
+      "bmi": 30.8,
+      "medical_history": [
+        "Arthritis",
+        "Asthma",
+        "Heart Disease"
+      ],
+      "current_medications": [
+        "Metformin",
+        "Atorvastatin",
+        "Omeprazole"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.1,
+        "WBC": 7.2,
+        "Platelets": 207.0,
+        "Creatinine": 1.18,
+        "INR": 1.0
+      },
+      "vital_signs": {
+        "BP_systolic": 119.0,
+        "BP_diastolic": 73.0,
+        "Heart_rate": 82.0,
+        "Temperature": 37.3,
+        "SpO2": 98.0
+      },
+      "risk_factors": [
+        "Obesity"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Hip Replacement",
+    "urgency": "elective",
+    "surgeon_experience_years": 29,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Navigation System",
+      "Power Tools"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 3.9,
+    "blood_loss_ml": 444.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 6,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000042",
+    "patient_profile": {
+      "age": 82,
+      "gender": "female",
+      "bmi": 27.7,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.3,
+        "WBC": 10.0,
+        "Platelets": 365.0,
+        "Creatinine": 0.69,
+        "INR": 0.99
+      },
+      "vital_signs": {
+        "BP_systolic": 138.0,
+        "BP_diastolic": 76.0,
+        "Heart_rate": 84.0,
+        "Temperature": 37.1,
+        "SpO2": 100.0
+      },
+      "risk_factors": [
+        "Advanced Age",
+        "Smoking"
+      ]
+    },
+    "surgery_type": "cardiac",
+    "procedure_name": "Angioplasty",
+    "urgency": "elective",
+    "surgeon_experience_years": 13,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "IABP",
+      "Heart-Lung Machine"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 4.4,
+    "blood_loss_ml": 454.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 6,
+    "readmission_30_days": false,
+    "recommended_approach": "Median sternotomy with cardiopulmonary bypass. Consider minimally invasive approach if suitable.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000043",
+    "patient_profile": {
+      "age": 62,
+      "gender": "female",
+      "bmi": 26.3,
+      "medical_history": [
+        "Diabetes",
+        "Heart Disease",
+        "Hypertension"
+      ],
+      "current_medications": [
+        "Omeprazole",
+        "Lisinopril",
+        "Aspirin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.5,
+        "WBC": 10.9,
+        "Platelets": 373.0,
+        "Creatinine": 1.18,
+        "INR": 0.9
+      },
+      "vital_signs": {
+        "BP_systolic": 113.0,
+        "BP_diastolic": 71.0,
+        "Heart_rate": 72.0,
+        "Temperature": 36.7,
+        "SpO2": 99.0
+      },
+      "risk_factors": [
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Appendectomy",
+    "urgency": "elective",
+    "surgeon_experience_years": 19,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 1.6,
+    "blood_loss_ml": 236.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 2,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000044",
+    "patient_profile": {
+      "age": 74,
+      "gender": "male",
+      "bmi": 23.9,
+      "medical_history": [
+        "Heart Disease",
+        "Asthma",
+        "Diabetes"
+      ],
+      "current_medications": [
+        "Omeprazole",
+        "Metformin",
+        "Aspirin"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.2,
+        "WBC": 4.5,
+        "Platelets": 271.0,
+        "Creatinine": 0.96,
+        "INR": 1.08
+      },
+      "vital_signs": {
+        "BP_systolic": 129.0,
+        "BP_diastolic": 81.0,
+        "Heart_rate": 92.0,
+        "Temperature": 36.6,
+        "SpO2": 99.0
+      },
+      "risk_factors": [
+        "Advanced Age",
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Hernia Repair",
+    "urgency": "elective",
+    "surgeon_experience_years": 10,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Energy Devices",
+      "Laparoscopic Equipment"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 2.2,
+    "blood_loss_ml": 223.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 3,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000045",
+    "patient_profile": {
+      "age": 78,
+      "gender": "male",
+      "bmi": 29.0,
+      "medical_history": [
+        "Heart Disease",
+        "Arthritis"
+      ],
+      "current_medications": [
+        "Lisinopril",
+        "Metformin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.0,
+        "WBC": 7.6,
+        "Platelets": 379.0,
+        "Creatinine": 0.6,
+        "INR": 1.08
+      },
+      "vital_signs": {
+        "BP_systolic": 132.0,
+        "BP_diastolic": 79.0,
+        "Heart_rate": 86.0,
+        "Temperature": 36.5,
+        "SpO2": 97.0
+      },
+      "risk_factors": [
+        "Advanced Age",
+        "Smoking"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Cholecystectomy",
+    "urgency": "elective",
+    "surgeon_experience_years": 10,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 1.2,
+    "blood_loss_ml": 167.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 3,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000046",
+    "patient_profile": {
+      "age": 76,
+      "gender": "male",
+      "bmi": 32.3,
+      "medical_history": [
+        "Diabetes",
+        "Arthritis",
+        "Heart Disease"
+      ],
+      "current_medications": [
+        "Metformin",
+        "Omeprazole",
+        "Aspirin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.8,
+        "WBC": 4.7,
+        "Platelets": 249.0,
+        "Creatinine": 0.97,
+        "INR": 1.03
+      },
+      "vital_signs": {
+        "BP_systolic": 118.0,
+        "BP_diastolic": 86.0,
+        "Heart_rate": 99.0,
+        "Temperature": 37.2,
+        "SpO2": 98.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Advanced Age",
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Hip Replacement",
+    "urgency": "elective",
+    "surgeon_experience_years": 14,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "C-Arm",
+      "Navigation System"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 3.0,
+    "blood_loss_ml": 252.0,
+    "complications": [
+      "Delayed healing",
+      "Infection"
+    ],
+    "success": true,
+    "recovery_days": 4,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000047",
+    "patient_profile": {
+      "age": 35,
+      "gender": "female",
+      "bmi": 30.1,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.6,
+        "WBC": 9.1,
+        "Platelets": 389.0,
+        "Creatinine": 0.91,
+        "INR": 0.95
+      },
+      "vital_signs": {
+        "BP_systolic": 120.0,
+        "BP_diastolic": 78.0,
+        "Heart_rate": 86.0,
+        "Temperature": 37.0,
+        "SpO2": 98.0
+      },
+      "risk_factors": [
+        "Obesity"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Bowel Resection",
+    "urgency": "elective",
+    "surgeon_experience_years": 30,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Energy Devices",
+      "Laparoscopic Equipment"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 1.8,
+    "blood_loss_ml": 166.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000048",
+    "patient_profile": {
+      "age": 74,
+      "gender": "male",
+      "bmi": 19.4,
+      "medical_history": [
+        "Asthma",
+        "Heart Disease"
+      ],
+      "current_medications": [
+        "Metformin",
+        "Omeprazole"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.8,
+        "WBC": 10.5,
+        "Platelets": 183.0,
+        "Creatinine": 0.68,
+        "INR": 0.98
+      },
+      "vital_signs": {
+        "BP_systolic": 123.0,
+        "BP_diastolic": 80.0,
+        "Heart_rate": 67.0,
+        "Temperature": 36.9,
+        "SpO2": 97.0
+      },
+      "risk_factors": [
+        "Advanced Age"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Hip Replacement",
+    "urgency": "elective",
+    "surgeon_experience_years": 28,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Power Tools",
+      "Navigation System"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 3.9,
+    "blood_loss_ml": 399.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000049",
+    "patient_profile": {
+      "age": 19,
+      "gender": "female",
+      "bmi": 29.6,
+      "medical_history": [
+        "Asthma"
+      ],
+      "current_medications": [
+        "Aspirin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.7,
+        "WBC": 6.5,
+        "Platelets": 298.0,
+        "Creatinine": 0.86,
+        "INR": 0.97
+      },
+      "vital_signs": {
+        "BP_systolic": 122.0,
+        "BP_diastolic": 72.0,
+        "Heart_rate": 85.0,
+        "Temperature": 37.1,
+        "SpO2": 99.0
+      },
+      "risk_factors": [
+        "Smoking"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Hernia Repair",
+    "urgency": "elective",
+    "surgeon_experience_years": 13,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 2.9,
+    "blood_loss_ml": 160.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000050",
+    "patient_profile": {
+      "age": 25,
+      "gender": "female",
+      "bmi": 33.2,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.4,
+        "WBC": 4.5,
+        "Platelets": 274.0,
+        "Creatinine": 0.78,
+        "INR": 0.94
+      },
+      "vital_signs": {
+        "BP_systolic": 138.0,
+        "BP_diastolic": 71.0,
+        "Heart_rate": 92.0,
+        "Temperature": 36.5,
+        "SpO2": 96.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Smoking"
+      ]
+    },
+    "surgery_type": "cardiac",
+    "procedure_name": "Valve Replacement",
+    "urgency": "elective",
+    "surgeon_experience_years": 11,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "IABP",
+      "ECMO"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 4.5,
+    "blood_loss_ml": 369.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Median sternotomy with cardiopulmonary bypass. Consider minimally invasive approach if suitable.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000051",
+    "patient_profile": {
+      "age": 24,
+      "gender": "female",
+      "bmi": 21.5,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.6,
+        "WBC": 7.8,
+        "Platelets": 162.0,
+        "Creatinine": 0.63,
+        "INR": 1.01
+      },
+      "vital_signs": {
+        "BP_systolic": 135.0,
+        "BP_diastolic": 80.0,
+        "Heart_rate": 99.0,
+        "Temperature": 36.8,
+        "SpO2": 96.0
+      },
+      "risk_factors": [
+        "Smoking"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "ACL Repair",
+    "urgency": "elective",
+    "surgeon_experience_years": 20,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "C-Arm",
+      "Navigation System"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 2.8,
+    "blood_loss_ml": 383.0,
+    "complications": [
+      "Pain"
+    ],
+    "success": true,
+    "recovery_days": 8,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000052",
+    "patient_profile": {
+      "age": 71,
+      "gender": "female",
+      "bmi": 31.2,
+      "medical_history": [
+        "Heart Disease"
+      ],
+      "current_medications": [
+        "Metformin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.6,
+        "WBC": 8.3,
+        "Platelets": 394.0,
+        "Creatinine": 0.64,
+        "INR": 0.93
+      },
+      "vital_signs": {
+        "BP_systolic": 129.0,
+        "BP_diastolic": 84.0,
+        "Heart_rate": 98.0,
+        "Temperature": 36.7,
+        "SpO2": 98.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Advanced Age"
+      ]
+    },
+    "surgery_type": "neurological",
+    "procedure_name": "Tumor Resection",
+    "urgency": "urgent",
+    "surgeon_experience_years": 10,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Microscope",
+      "Neuromonitoring"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 5.9,
+    "blood_loss_ml": 327.0,
+    "complications": [
+      "Minor bleeding",
+      "Infection"
+    ],
+    "success": true,
+    "recovery_days": 12,
+    "readmission_30_days": false,
+    "recommended_approach": "Microsurgical technique with neuromonitoring. Preserve neural structures.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000053",
+    "patient_profile": {
+      "age": 34,
+      "gender": "female",
+      "bmi": 34.1,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.3,
+        "WBC": 8.3,
+        "Platelets": 241.0,
+        "Creatinine": 1.09,
+        "INR": 0.96
+      },
+      "vital_signs": {
+        "BP_systolic": 135.0,
+        "BP_diastolic": 82.0,
+        "Heart_rate": 64.0,
+        "Temperature": 36.9,
+        "SpO2": 99.0
+      },
+      "risk_factors": [
+        "Obesity"
+      ]
+    },
+    "surgery_type": "oncological",
+    "procedure_name": "Liver Resection",
+    "urgency": "urgent",
+    "surgeon_experience_years": 4,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 4.2,
+    "blood_loss_ml": 351.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 6,
+    "readmission_30_days": false,
+    "recommended_approach": "Wide excision with negative margins. Consider sentinel node biopsy.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000054",
+    "patient_profile": {
+      "age": 43,
+      "gender": "male",
+      "bmi": 21.3,
+      "medical_history": [
+        "Diabetes"
+      ],
+      "current_medications": [
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.8,
+        "WBC": 5.7,
+        "Platelets": 334.0,
+        "Creatinine": 1.08,
+        "INR": 1.06
+      },
+      "vital_signs": {
+        "BP_systolic": 121.0,
+        "BP_diastolic": 88.0,
+        "Heart_rate": 93.0,
+        "Temperature": 37.1,
+        "SpO2": 97.0
+      },
+      "risk_factors": [
+        "Smoking",
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "neurological",
+    "procedure_name": "VP Shunt",
+    "urgency": "elective",
+    "surgeon_experience_years": 22,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Navigation System",
+      "Neuromonitoring"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 5.8,
+    "blood_loss_ml": 163.0,
+    "complications": [
+      "Infection",
+      "Minor bleeding"
+    ],
+    "success": true,
+    "recovery_days": 11,
+    "readmission_30_days": false,
+    "recommended_approach": "Microsurgical technique with neuromonitoring. Preserve neural structures.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000055",
+    "patient_profile": {
+      "age": 84,
+      "gender": "male",
+      "bmi": 28.3,
+      "medical_history": [
+        "Diabetes",
+        "Hypertension"
+      ],
+      "current_medications": [
+        "Metformin",
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.8,
+        "WBC": 8.1,
+        "Platelets": 258.0,
+        "Creatinine": 0.86,
+        "INR": 1.0
+      },
+      "vital_signs": {
+        "BP_systolic": 129.0,
+        "BP_diastolic": 80.0,
+        "Heart_rate": 88.0,
+        "Temperature": 37.5,
+        "SpO2": 95.0
+      },
+      "risk_factors": [
+        "Advanced Age",
+        "Smoking",
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "cardiac",
+    "procedure_name": "Angioplasty",
+    "urgency": "elective",
+    "surgeon_experience_years": 25,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "IABP",
+      "Heart-Lung Machine"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 4.6,
+    "blood_loss_ml": 454.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 7,
+    "readmission_30_days": false,
+    "recommended_approach": "Median sternotomy with cardiopulmonary bypass. Consider minimally invasive approach if suitable.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000056",
+    "patient_profile": {
+      "age": 50,
+      "gender": "male",
+      "bmi": 21.6,
+      "medical_history": [
+        "Diabetes"
+      ],
+      "current_medications": [
+        "Metformin"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.9,
+        "WBC": 8.7,
+        "Platelets": 322.0,
+        "Creatinine": 0.8,
+        "INR": 1.03
+      },
+      "vital_signs": {
+        "BP_systolic": 124.0,
+        "BP_diastolic": 83.0,
+        "Heart_rate": 95.0,
+        "Temperature": 36.9,
+        "SpO2": 96.0
+      },
+      "risk_factors": [
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Hip Replacement",
+    "urgency": "urgent",
+    "surgeon_experience_years": 26,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Navigation System",
+      "Power Tools"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 3.8,
+    "blood_loss_ml": 288.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 4,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000057",
+    "patient_profile": {
+      "age": 34,
+      "gender": "male",
+      "bmi": 24.8,
+      "medical_history": [
+        "Diabetes"
+      ],
+      "current_medications": [
+        "Metformin"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.3,
+        "WBC": 6.1,
+        "Platelets": 323.0,
+        "Creatinine": 0.95,
+        "INR": 0.94
+      },
+      "vital_signs": {
+        "BP_systolic": 112.0,
+        "BP_diastolic": 71.0,
+        "Heart_rate": 74.0,
+        "Temperature": 37.3,
+        "SpO2": 97.0
+      },
+      "risk_factors": [
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "cardiac",
+    "procedure_name": "Pacemaker Implantation",
+    "urgency": "elective",
+    "surgeon_experience_years": 15,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Heart-Lung Machine",
+      "IABP"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 4.8,
+    "blood_loss_ml": 543.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 9,
+    "readmission_30_days": false,
+    "recommended_approach": "Median sternotomy with cardiopulmonary bypass. Consider minimally invasive approach if suitable.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000058",
+    "patient_profile": {
+      "age": 64,
+      "gender": "female",
+      "bmi": 30.6,
+      "medical_history": [
+        "Arthritis",
+        "Heart Disease"
+      ],
+      "current_medications": [
+        "Metformin",
+        "Lisinopril"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.8,
+        "WBC": 6.0,
+        "Platelets": 284.0,
+        "Creatinine": 0.62,
+        "INR": 0.95
+      },
+      "vital_signs": {
+        "BP_systolic": 111.0,
+        "BP_diastolic": 79.0,
+        "Heart_rate": 62.0,
+        "Temperature": 37.4,
+        "SpO2": 98.0
+      },
+      "risk_factors": [
+        "Obesity"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Bowel Resection",
+    "urgency": "elective",
+    "surgeon_experience_years": 20,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 1.8,
+    "blood_loss_ml": 95.0,
+    "complications": [
+      "Minor bleeding"
+    ],
+    "success": true,
+    "recovery_days": 2,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000059",
+    "patient_profile": {
+      "age": 69,
+      "gender": "female",
+      "bmi": 33.9,
+      "medical_history": [
+        "Heart Disease",
+        "Hypertension",
+        "Asthma"
+      ],
+      "current_medications": [
+        "Omeprazole",
+        "Metformin",
+        "Aspirin"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.6,
+        "WBC": 7.8,
+        "Platelets": 233.0,
+        "Creatinine": 0.9,
+        "INR": 1.1
+      },
+      "vital_signs": {
+        "BP_systolic": 127.0,
+        "BP_diastolic": 83.0,
+        "Heart_rate": 76.0,
+        "Temperature": 37.4,
+        "SpO2": 100.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Advanced Age",
+        "Smoking"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Spinal Fusion",
+    "urgency": "elective",
+    "surgeon_experience_years": 6,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Navigation System",
+      "Power Tools"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 3.5,
+    "blood_loss_ml": 329.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 8,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000060",
+    "patient_profile": {
+      "age": 21,
+      "gender": "female",
+      "bmi": 20.7,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.7,
+        "WBC": 11.0,
+        "Platelets": 275.0,
+        "Creatinine": 0.72,
+        "INR": 0.99
+      },
+      "vital_signs": {
+        "BP_systolic": 125.0,
+        "BP_diastolic": 74.0,
+        "Heart_rate": 69.0,
+        "Temperature": 36.8,
+        "SpO2": 98.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "general",
+    "procedure_name": "Bowel Resection",
+    "urgency": "elective",
+    "surgeon_experience_years": 3,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 1.6,
+    "blood_loss_ml": 216.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000061",
+    "patient_profile": {
+      "age": 57,
+      "gender": "male",
+      "bmi": 25.5,
+      "medical_history": [
+        "Diabetes",
+        "Hypertension"
+      ],
+      "current_medications": [
+        "Aspirin",
+        "Omeprazole"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.1,
+        "WBC": 6.7,
+        "Platelets": 328.0,
+        "Creatinine": 1.0,
+        "INR": 0.98
+      },
+      "vital_signs": {
+        "BP_systolic": 112.0,
+        "BP_diastolic": 75.0,
+        "Heart_rate": 89.0,
+        "Temperature": 37.0,
+        "SpO2": 99.0
+      },
+      "risk_factors": [
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Hip Replacement",
+    "urgency": "elective",
+    "surgeon_experience_years": 13,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "C-Arm",
+      "Navigation System"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 2.9,
+    "blood_loss_ml": 387.0,
+    "complications": [
+      "None"
+    ],
+    "success": false,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000062",
+    "patient_profile": {
+      "age": 47,
+      "gender": "male",
+      "bmi": 32.9,
+      "medical_history": [
+        "Heart Disease"
+      ],
+      "current_medications": [
+        "Metformin"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.4,
+        "WBC": 6.4,
+        "Platelets": 324.0,
+        "Creatinine": 0.71,
+        "INR": 0.98
+      },
+      "vital_signs": {
+        "BP_systolic": 125.0,
+        "BP_diastolic": 85.0,
+        "Heart_rate": 94.0,
+        "Temperature": 36.9,
+        "SpO2": 97.0
+      },
+      "risk_factors": [
+        "Obesity"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Bowel Resection",
+    "urgency": "urgent",
+    "surgeon_experience_years": 26,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 1.4,
+    "blood_loss_ml": 125.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 4,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000063",
+    "patient_profile": {
+      "age": 37,
+      "gender": "male",
+      "bmi": 24.4,
+      "medical_history": [
+        "Hypertension"
+      ],
+      "current_medications": [
+        "Omeprazole"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.5,
+        "WBC": 6.5,
+        "Platelets": 385.0,
+        "Creatinine": 0.67,
+        "INR": 1.02
+      },
+      "vital_signs": {
+        "BP_systolic": 133.0,
+        "BP_diastolic": 79.0,
+        "Heart_rate": 76.0,
+        "Temperature": 37.1,
+        "SpO2": 100.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "general",
+    "procedure_name": "Cholecystectomy",
+    "urgency": "elective",
+    "surgeon_experience_years": 17,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Energy Devices",
+      "Laparoscopic Equipment"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 1.5,
+    "blood_loss_ml": 74.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000064",
+    "patient_profile": {
+      "age": 61,
+      "gender": "female",
+      "bmi": 24.8,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.5,
+        "WBC": 6.8,
+        "Platelets": 224.0,
+        "Creatinine": 0.88,
+        "INR": 1.05
+      },
+      "vital_signs": {
+        "BP_systolic": 116.0,
+        "BP_diastolic": 76.0,
+        "Heart_rate": 95.0,
+        "Temperature": 37.1,
+        "SpO2": 98.0
+      },
+      "risk_factors": [
+        "Smoking"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Appendectomy",
+    "urgency": "elective",
+    "surgeon_experience_years": 5,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 1.9,
+    "blood_loss_ml": 58.0,
+    "complications": [
+      "None"
+    ],
+    "success": false,
+    "recovery_days": 4,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000065",
+    "patient_profile": {
+      "age": 56,
+      "gender": "female",
+      "bmi": 25.0,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.4,
+        "WBC": 10.5,
+        "Platelets": 389.0,
+        "Creatinine": 0.77,
+        "INR": 1.03
+      },
+      "vital_signs": {
+        "BP_systolic": 138.0,
+        "BP_diastolic": 81.0,
+        "Heart_rate": 92.0,
+        "Temperature": 36.6,
+        "SpO2": 98.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "ACL Repair",
+    "urgency": "elective",
+    "surgeon_experience_years": 12,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "C-Arm",
+      "Power Tools"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 2.7,
+    "blood_loss_ml": 371.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 4,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000066",
+    "patient_profile": {
+      "age": 46,
+      "gender": "male",
+      "bmi": 30.4,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.0,
+        "WBC": 5.5,
+        "Platelets": 323.0,
+        "Creatinine": 1.1,
+        "INR": 0.94
+      },
+      "vital_signs": {
+        "BP_systolic": 116.0,
+        "BP_diastolic": 70.0,
+        "Heart_rate": 79.0,
+        "Temperature": 36.8,
+        "SpO2": 96.0
+      },
+      "risk_factors": [
+        "Obesity"
+      ]
+    },
+    "surgery_type": "neurological",
+    "procedure_name": "VP Shunt",
+    "urgency": "elective",
+    "surgeon_experience_years": 26,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Neuromonitoring",
+      "Microscope"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 6.0,
+    "blood_loss_ml": 156.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 8,
+    "readmission_30_days": false,
+    "recommended_approach": "Microsurgical technique with neuromonitoring. Preserve neural structures.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000067",
+    "patient_profile": {
+      "age": 20,
+      "gender": "female",
+      "bmi": 24.3,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.1,
+        "WBC": 5.4,
+        "Platelets": 169.0,
+        "Creatinine": 0.7,
+        "INR": 0.96
+      },
+      "vital_signs": {
+        "BP_systolic": 126.0,
+        "BP_diastolic": 87.0,
+        "Heart_rate": 73.0,
+        "Temperature": 36.7,
+        "SpO2": 97.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "oncological",
+    "procedure_name": "Liver Resection",
+    "urgency": "elective",
+    "surgeon_experience_years": 22,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 3.7,
+    "blood_loss_ml": 362.0,
+    "complications": [
+      "Infection",
+      "Minor bleeding"
+    ],
+    "success": true,
+    "recovery_days": 9,
+    "readmission_30_days": false,
+    "recommended_approach": "Wide excision with negative margins. Consider sentinel node biopsy.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000068",
+    "patient_profile": {
+      "age": 18,
+      "gender": "female",
+      "bmi": 26.5,
+      "medical_history": [
+        "Asthma"
+      ],
+      "current_medications": [
+        "Metformin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.7,
+        "WBC": 9.2,
+        "Platelets": 332.0,
+        "Creatinine": 1.19,
+        "INR": 0.91
+      },
+      "vital_signs": {
+        "BP_systolic": 129.0,
+        "BP_diastolic": 83.0,
+        "Heart_rate": 66.0,
+        "Temperature": 36.5,
+        "SpO2": 97.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Spinal Fusion",
+    "urgency": "elective",
+    "surgeon_experience_years": 19,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "C-Arm",
+      "Navigation System"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 2.1,
+    "blood_loss_ml": 372.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 8,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000069",
+    "patient_profile": {
+      "age": 55,
+      "gender": "male",
+      "bmi": 30.2,
+      "medical_history": [
+        "Hypertension",
+        "Diabetes"
+      ],
+      "current_medications": [
+        "Lisinopril",
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.4,
+        "WBC": 6.3,
+        "Platelets": 258.0,
+        "Creatinine": 0.66,
+        "INR": 0.9
+      },
+      "vital_signs": {
+        "BP_systolic": 117.0,
+        "BP_diastolic": 77.0,
+        "Heart_rate": 80.0,
+        "Temperature": 36.8,
+        "SpO2": 96.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Total Knee Replacement",
+    "urgency": "urgent",
+    "surgeon_experience_years": 24,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "C-Arm",
+      "Navigation System"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 3.3,
+    "blood_loss_ml": 410.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000070",
+    "patient_profile": {
+      "age": 59,
+      "gender": "male",
+      "bmi": 33.9,
+      "medical_history": [
+        "Diabetes",
+        "Asthma"
+      ],
+      "current_medications": [
+        "Omeprazole",
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.8,
+        "WBC": 6.0,
+        "Platelets": 268.0,
+        "Creatinine": 0.89,
+        "INR": 1.04
+      },
+      "vital_signs": {
+        "BP_systolic": 124.0,
+        "BP_diastolic": 74.0,
+        "Heart_rate": 74.0,
+        "Temperature": 36.7,
+        "SpO2": 100.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Bowel Resection",
+    "urgency": "elective",
+    "surgeon_experience_years": 14,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 2.2,
+    "blood_loss_ml": 216.0,
+    "complications": [
+      "Delayed healing",
+      "Infection"
+    ],
+    "success": true,
+    "recovery_days": 2,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000071",
+    "patient_profile": {
+      "age": 64,
+      "gender": "male",
+      "bmi": 33.6,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.3,
+        "WBC": 10.4,
+        "Platelets": 379.0,
+        "Creatinine": 0.76,
+        "INR": 1.0
+      },
+      "vital_signs": {
+        "BP_systolic": 116.0,
+        "BP_diastolic": 72.0,
+        "Heart_rate": 93.0,
+        "Temperature": 37.3,
+        "SpO2": 97.0
+      },
+      "risk_factors": [
+        "Obesity"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Hip Replacement",
+    "urgency": "elective",
+    "surgeon_experience_years": 17,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "C-Arm",
+      "Navigation System"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 3.3,
+    "blood_loss_ml": 368.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 3,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000072",
+    "patient_profile": {
+      "age": 18,
+      "gender": "female",
+      "bmi": 31.2,
+      "medical_history": [
+        "Hypertension"
+      ],
+      "current_medications": [
+        "Aspirin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.9,
+        "WBC": 5.8,
+        "Platelets": 242.0,
+        "Creatinine": 0.89,
+        "INR": 1.05
+      },
+      "vital_signs": {
+        "BP_systolic": 133.0,
+        "BP_diastolic": 70.0,
+        "Heart_rate": 60.0,
+        "Temperature": 37.2,
+        "SpO2": 97.0
+      },
+      "risk_factors": [
+        "Obesity"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Hernia Repair",
+    "urgency": "elective",
+    "surgeon_experience_years": 4,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Energy Devices",
+      "Laparoscopic Equipment"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 2.5,
+    "blood_loss_ml": 61.0,
+    "complications": [
+      "Minor bleeding",
+      "Delayed healing"
+    ],
+    "success": true,
+    "recovery_days": 4,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000073",
+    "patient_profile": {
+      "age": 64,
+      "gender": "female",
+      "bmi": 20.8,
+      "medical_history": [
+        "Hypertension"
+      ],
+      "current_medications": [
+        "Omeprazole"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.9,
+        "WBC": 5.5,
+        "Platelets": 302.0,
+        "Creatinine": 1.18,
+        "INR": 1.06
+      },
+      "vital_signs": {
+        "BP_systolic": 118.0,
+        "BP_diastolic": 75.0,
+        "Heart_rate": 92.0,
+        "Temperature": 36.7,
+        "SpO2": 98.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "neurological",
+    "procedure_name": "Tumor Resection",
+    "urgency": "elective",
+    "surgeon_experience_years": 16,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Microscope",
+      "Neuromonitoring"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 4.9,
+    "blood_loss_ml": 304.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 9,
+    "readmission_30_days": false,
+    "recommended_approach": "Microsurgical technique with neuromonitoring. Preserve neural structures.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000074",
+    "patient_profile": {
+      "age": 71,
+      "gender": "female",
+      "bmi": 19.6,
+      "medical_history": [
+        "Hypertension",
+        "Arthritis"
+      ],
+      "current_medications": [
+        "Aspirin",
+        "Metformin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.1,
+        "WBC": 4.8,
+        "Platelets": 246.0,
+        "Creatinine": 1.09,
+        "INR": 0.99
+      },
+      "vital_signs": {
+        "BP_systolic": 140.0,
+        "BP_diastolic": 81.0,
+        "Heart_rate": 85.0,
+        "Temperature": 36.8,
+        "SpO2": 95.0
+      },
+      "risk_factors": [
+        "Advanced Age"
+      ]
+    },
+    "surgery_type": "oncological",
+    "procedure_name": "Mastectomy",
+    "urgency": "elective",
+    "surgeon_experience_years": 25,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 4.1,
+    "blood_loss_ml": 285.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Wide excision with negative margins. Consider sentinel node biopsy.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000075",
+    "patient_profile": {
+      "age": 24,
+      "gender": "female",
+      "bmi": 25.8,
+      "medical_history": [
+        "Heart Disease"
+      ],
+      "current_medications": [
+        "Aspirin"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.6,
+        "WBC": 10.6,
+        "Platelets": 150.0,
+        "Creatinine": 1.0,
+        "INR": 0.93
+      },
+      "vital_signs": {
+        "BP_systolic": 116.0,
+        "BP_diastolic": 84.0,
+        "Heart_rate": 67.0,
+        "Temperature": 37.5,
+        "SpO2": 96.0
+      },
+      "risk_factors": [
+        "Smoking"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Cholecystectomy",
+    "urgency": "urgent",
+    "surgeon_experience_years": 25,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 2.5,
+    "blood_loss_ml": 133.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000076",
+    "patient_profile": {
+      "age": 81,
+      "gender": "male",
+      "bmi": 32.9,
+      "medical_history": [
+        "Arthritis",
+        "Hypertension",
+        "Heart Disease"
+      ],
+      "current_medications": [
+        "Aspirin",
+        "Lisinopril",
+        "Omeprazole"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.1,
+        "WBC": 7.4,
+        "Platelets": 263.0,
+        "Creatinine": 1.14,
+        "INR": 0.93
+      },
+      "vital_signs": {
+        "BP_systolic": 123.0,
+        "BP_diastolic": 81.0,
+        "Heart_rate": 65.0,
+        "Temperature": 36.9,
+        "SpO2": 95.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Advanced Age"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Total Knee Replacement",
+    "urgency": "elective",
+    "surgeon_experience_years": 3,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Power Tools",
+      "C-Arm"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 3.9,
+    "blood_loss_ml": 255.0,
+    "complications": [
+      "Pain"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000077",
+    "patient_profile": {
+      "age": 37,
+      "gender": "female",
+      "bmi": 22.3,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.6,
+        "WBC": 4.6,
+        "Platelets": 272.0,
+        "Creatinine": 0.62,
+        "INR": 1.03
+      },
+      "vital_signs": {
+        "BP_systolic": 113.0,
+        "BP_diastolic": 85.0,
+        "Heart_rate": 89.0,
+        "Temperature": 37.2,
+        "SpO2": 99.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "oncological",
+    "procedure_name": "Liver Resection",
+    "urgency": "urgent",
+    "surgeon_experience_years": 12,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 3.0,
+    "blood_loss_ml": 305.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 10,
+    "readmission_30_days": false,
+    "recommended_approach": "Wide excision with negative margins. Consider sentinel node biopsy.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000078",
+    "patient_profile": {
+      "age": 30,
+      "gender": "female",
+      "bmi": 23.9,
+      "medical_history": [
+        "Arthritis"
+      ],
+      "current_medications": [
+        "Metformin"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.5,
+        "WBC": 7.0,
+        "Platelets": 283.0,
+        "Creatinine": 1.03,
+        "INR": 0.94
+      },
+      "vital_signs": {
+        "BP_systolic": 138.0,
+        "BP_diastolic": 82.0,
+        "Heart_rate": 81.0,
+        "Temperature": 37.0,
+        "SpO2": 95.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "general",
+    "procedure_name": "Hernia Repair",
+    "urgency": "elective",
+    "surgeon_experience_years": 10,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 1.5,
+    "blood_loss_ml": 207.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 6,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000079",
+    "patient_profile": {
+      "age": 29,
+      "gender": "female",
+      "bmi": 19.2,
+      "medical_history": [
+        "Diabetes"
+      ],
+      "current_medications": [
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.0,
+        "WBC": 8.8,
+        "Platelets": 353.0,
+        "Creatinine": 0.87,
+        "INR": 1.02
+      },
+      "vital_signs": {
+        "BP_systolic": 129.0,
+        "BP_diastolic": 81.0,
+        "Heart_rate": 89.0,
+        "Temperature": 37.0,
+        "SpO2": 95.0
+      },
+      "risk_factors": [
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "cardiac",
+    "procedure_name": "Valve Replacement",
+    "urgency": "elective",
+    "surgeon_experience_years": 30,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "IABP",
+      "ECMO"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 5.2,
+    "blood_loss_ml": 475.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 10,
+    "readmission_30_days": false,
+    "recommended_approach": "Median sternotomy with cardiopulmonary bypass. Consider minimally invasive approach if suitable.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000080",
+    "patient_profile": {
+      "age": 52,
+      "gender": "male",
+      "bmi": 30.1,
+      "medical_history": [
+        "Diabetes"
+      ],
+      "current_medications": [
+        "Omeprazole"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.3,
+        "WBC": 6.1,
+        "Platelets": 358.0,
+        "Creatinine": 0.92,
+        "INR": 0.97
+      },
+      "vital_signs": {
+        "BP_systolic": 116.0,
+        "BP_diastolic": 81.0,
+        "Heart_rate": 71.0,
+        "Temperature": 36.9,
+        "SpO2": 97.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Smoking",
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "cardiac",
+    "procedure_name": "Valve Replacement",
+    "urgency": "urgent",
+    "surgeon_experience_years": 14,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Heart-Lung Machine",
+      "IABP"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 4.5,
+    "blood_loss_ml": 478.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Median sternotomy with cardiopulmonary bypass. Consider minimally invasive approach if suitable.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000081",
+    "patient_profile": {
+      "age": 80,
+      "gender": "male",
+      "bmi": 30.7,
+      "medical_history": [
+        "Arthritis",
+        "Asthma",
+        "Diabetes"
+      ],
+      "current_medications": [
+        "Metformin",
+        "Aspirin",
+        "Lisinopril"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.5,
+        "WBC": 4.9,
+        "Platelets": 208.0,
+        "Creatinine": 0.7,
+        "INR": 0.95
+      },
+      "vital_signs": {
+        "BP_systolic": 111.0,
+        "BP_diastolic": 70.0,
+        "Heart_rate": 93.0,
+        "Temperature": 37.5,
+        "SpO2": 97.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Advanced Age",
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Hernia Repair",
+    "urgency": "urgent",
+    "surgeon_experience_years": 9,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Energy Devices",
+      "Laparoscopic Equipment"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 2.2,
+    "blood_loss_ml": 208.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 6,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000082",
+    "patient_profile": {
+      "age": 49,
+      "gender": "male",
+      "bmi": 29.2,
+      "medical_history": [
+        "Hypertension"
+      ],
+      "current_medications": [
+        "Lisinopril"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.6,
+        "WBC": 4.5,
+        "Platelets": 268.0,
+        "Creatinine": 0.75,
+        "INR": 1.04
+      },
+      "vital_signs": {
+        "BP_systolic": 110.0,
+        "BP_diastolic": 85.0,
+        "Heart_rate": 84.0,
+        "Temperature": 36.8,
+        "SpO2": 98.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "general",
+    "procedure_name": "Hernia Repair",
+    "urgency": "urgent",
+    "surgeon_experience_years": 5,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Energy Devices",
+      "Laparoscopic Equipment"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 1.9,
+    "blood_loss_ml": 158.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 3,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000083",
+    "patient_profile": {
+      "age": 79,
+      "gender": "male",
+      "bmi": 22.1,
+      "medical_history": [
+        "Diabetes"
+      ],
+      "current_medications": [
+        "Aspirin"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.6,
+        "WBC": 8.4,
+        "Platelets": 359.0,
+        "Creatinine": 0.66,
+        "INR": 0.94
+      },
+      "vital_signs": {
+        "BP_systolic": 123.0,
+        "BP_diastolic": 87.0,
+        "Heart_rate": 94.0,
+        "Temperature": 36.8,
+        "SpO2": 95.0
+      },
+      "risk_factors": [
+        "Advanced Age",
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "ACL Repair",
+    "urgency": "elective",
+    "surgeon_experience_years": 22,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Power Tools",
+      "Navigation System"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 4.0,
+    "blood_loss_ml": 353.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 6,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000084",
+    "patient_profile": {
+      "age": 70,
+      "gender": "male",
+      "bmi": 31.8,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.3,
+        "WBC": 5.4,
+        "Platelets": 237.0,
+        "Creatinine": 0.87,
+        "INR": 0.95
+      },
+      "vital_signs": {
+        "BP_systolic": 113.0,
+        "BP_diastolic": 72.0,
+        "Heart_rate": 91.0,
+        "Temperature": 37.1,
+        "SpO2": 98.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Advanced Age"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Hernia Repair",
+    "urgency": "elective",
+    "surgeon_experience_years": 26,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Energy Devices",
+      "Laparoscopic Equipment"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 2.6,
+    "blood_loss_ml": 164.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000085",
+    "patient_profile": {
+      "age": 22,
+      "gender": "female",
+      "bmi": 32.7,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.3,
+        "WBC": 8.2,
+        "Platelets": 210.0,
+        "Creatinine": 0.81,
+        "INR": 1.03
+      },
+      "vital_signs": {
+        "BP_systolic": 114.0,
+        "BP_diastolic": 89.0,
+        "Heart_rate": 97.0,
+        "Temperature": 37.5,
+        "SpO2": 98.0
+      },
+      "risk_factors": [
+        "Obesity"
+      ]
+    },
+    "surgery_type": "oncological",
+    "procedure_name": "Colon Resection",
+    "urgency": "elective",
+    "surgeon_experience_years": 5,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 3.1,
+    "blood_loss_ml": 272.0,
+    "complications": [
+      "Minor bleeding",
+      "Pain"
+    ],
+    "success": true,
+    "recovery_days": 9,
+    "readmission_30_days": false,
+    "recommended_approach": "Wide excision with negative margins. Consider sentinel node biopsy.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000086",
+    "patient_profile": {
+      "age": 43,
+      "gender": "male",
+      "bmi": 22.0,
+      "medical_history": [
+        "Diabetes"
+      ],
+      "current_medications": [
+        "Metformin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.9,
+        "WBC": 9.4,
+        "Platelets": 386.0,
+        "Creatinine": 1.2,
+        "INR": 1.09
+      },
+      "vital_signs": {
+        "BP_systolic": 124.0,
+        "BP_diastolic": 72.0,
+        "Heart_rate": 63.0,
+        "Temperature": 37.2,
+        "SpO2": 100.0
+      },
+      "risk_factors": [
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Appendectomy",
+    "urgency": "elective",
+    "surgeon_experience_years": 20,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Energy Devices",
+      "Laparoscopic Equipment"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 1.5,
+    "blood_loss_ml": 220.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 1,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000087",
+    "patient_profile": {
+      "age": 75,
+      "gender": "female",
+      "bmi": 25.2,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.4,
+        "WBC": 4.7,
+        "Platelets": 362.0,
+        "Creatinine": 0.77,
+        "INR": 1.08
+      },
+      "vital_signs": {
+        "BP_systolic": 126.0,
+        "BP_diastolic": 80.0,
+        "Heart_rate": 65.0,
+        "Temperature": 36.7,
+        "SpO2": 100.0
+      },
+      "risk_factors": [
+        "Advanced Age"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Total Knee Replacement",
+    "urgency": "elective",
+    "surgeon_experience_years": 27,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "C-Arm",
+      "Power Tools"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 3.3,
+    "blood_loss_ml": 314.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 3,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000088",
+    "patient_profile": {
+      "age": 21,
+      "gender": "male",
+      "bmi": 29.5,
+      "medical_history": [
+        "Heart Disease"
+      ],
+      "current_medications": [
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.8,
+        "WBC": 8.0,
+        "Platelets": 373.0,
+        "Creatinine": 0.93,
+        "INR": 0.91
+      },
+      "vital_signs": {
+        "BP_systolic": 122.0,
+        "BP_diastolic": 81.0,
+        "Heart_rate": 94.0,
+        "Temperature": 36.5,
+        "SpO2": 98.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "neurological",
+    "procedure_name": "VP Shunt",
+    "urgency": "elective",
+    "surgeon_experience_years": 25,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Navigation System",
+      "Microscope"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 4.6,
+    "blood_loss_ml": 242.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 11,
+    "readmission_30_days": false,
+    "recommended_approach": "Microsurgical technique with neuromonitoring. Preserve neural structures.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000089",
+    "patient_profile": {
+      "age": 19,
+      "gender": "male",
+      "bmi": 24.0,
+      "medical_history": [
+        "Hypertension"
+      ],
+      "current_medications": [
+        "Lisinopril"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.6,
+        "WBC": 7.9,
+        "Platelets": 326.0,
+        "Creatinine": 0.86,
+        "INR": 0.9
+      },
+      "vital_signs": {
+        "BP_systolic": 127.0,
+        "BP_diastolic": 87.0,
+        "Heart_rate": 83.0,
+        "Temperature": 36.6,
+        "SpO2": 96.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Spinal Fusion",
+    "urgency": "elective",
+    "surgeon_experience_years": 16,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Power Tools",
+      "Navigation System"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 2.7,
+    "blood_loss_ml": 343.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 7,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000090",
+    "patient_profile": {
+      "age": 68,
+      "gender": "female",
+      "bmi": 30.9,
+      "medical_history": [
+        "Asthma",
+        "Hypertension"
+      ],
+      "current_medications": [
+        "Metformin",
+        "Aspirin"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 14.1,
+        "WBC": 8.0,
+        "Platelets": 173.0,
+        "Creatinine": 1.14,
+        "INR": 1.05
+      },
+      "vital_signs": {
+        "BP_systolic": 139.0,
+        "BP_diastolic": 78.0,
+        "Heart_rate": 63.0,
+        "Temperature": 36.9,
+        "SpO2": 98.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Advanced Age"
+      ]
+    },
+    "surgery_type": "general",
+    "procedure_name": "Hernia Repair",
+    "urgency": "elective",
+    "surgeon_experience_years": 15,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Laparoscopic Equipment",
+      "Energy Devices"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 1.6,
+    "blood_loss_ml": 146.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 4,
+    "readmission_30_days": false,
+    "recommended_approach": "Laparoscopic approach preferred if feasible. Convert to open if necessary.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000091",
+    "patient_profile": {
+      "age": 67,
+      "gender": "male",
+      "bmi": 22.2,
+      "medical_history": [
+        "Asthma"
+      ],
+      "current_medications": [
+        "Omeprazole"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.5,
+        "WBC": 10.1,
+        "Platelets": 285.0,
+        "Creatinine": 0.96,
+        "INR": 1.04
+      },
+      "vital_signs": {
+        "BP_systolic": 128.0,
+        "BP_diastolic": 75.0,
+        "Heart_rate": 62.0,
+        "Temperature": 37.5,
+        "SpO2": 95.0
+      },
+      "risk_factors": [
+        "Advanced Age"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "ACL Repair",
+    "urgency": "elective",
+    "surgeon_experience_years": 7,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "C-Arm",
+      "Navigation System"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 2.5,
+    "blood_loss_ml": 417.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 7,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000092",
+    "patient_profile": {
+      "age": 78,
+      "gender": "female",
+      "bmi": 31.0,
+      "medical_history": [
+        "Diabetes"
+      ],
+      "current_medications": [
+        "Metformin"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.3,
+        "WBC": 4.7,
+        "Platelets": 326.0,
+        "Creatinine": 0.76,
+        "INR": 1.07
+      },
+      "vital_signs": {
+        "BP_systolic": 116.0,
+        "BP_diastolic": 89.0,
+        "Heart_rate": 82.0,
+        "Temperature": 36.5,
+        "SpO2": 95.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Advanced Age",
+        "Smoking",
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "cardiac",
+    "procedure_name": "Pacemaker Implantation",
+    "urgency": "elective",
+    "surgeon_experience_years": 30,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "ECMO",
+      "IABP"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 3.6,
+    "blood_loss_ml": 494.0,
+    "complications": [
+      "None"
+    ],
+    "success": false,
+    "recovery_days": 10,
+    "readmission_30_days": true,
+    "recommended_approach": "Median sternotomy with cardiopulmonary bypass. Consider minimally invasive approach if suitable.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000093",
+    "patient_profile": {
+      "age": 25,
+      "gender": "female",
+      "bmi": 18.9,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.4,
+        "WBC": 5.7,
+        "Platelets": 220.0,
+        "Creatinine": 1.17,
+        "INR": 0.9
+      },
+      "vital_signs": {
+        "BP_systolic": 112.0,
+        "BP_diastolic": 81.0,
+        "Heart_rate": 100.0,
+        "Temperature": 36.7,
+        "SpO2": 99.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Hip Replacement",
+    "urgency": "urgent",
+    "surgeon_experience_years": 7,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Power Tools",
+      "C-Arm"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 3.6,
+    "blood_loss_ml": 302.0,
+    "complications": [
+      "Infection"
+    ],
+    "success": false,
+    "recovery_days": 6,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000094",
+    "patient_profile": {
+      "age": 26,
+      "gender": "male",
+      "bmi": 26.4,
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.5,
+        "WBC": 8.1,
+        "Platelets": 348.0,
+        "Creatinine": 0.75,
+        "INR": 0.92
+      },
+      "vital_signs": {
+        "BP_systolic": 135.0,
+        "BP_diastolic": 71.0,
+        "Heart_rate": 94.0,
+        "Temperature": 37.3,
+        "SpO2": 100.0
+      },
+      "risk_factors": [
+        "Smoking"
+      ]
+    },
+    "surgery_type": "neurological",
+    "procedure_name": "Craniotomy",
+    "urgency": "elective",
+    "surgeon_experience_years": 25,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Neuromonitoring",
+      "Navigation System"
+    ],
+    "technique_used": "Standard",
+    "duration_hours": 5.4,
+    "blood_loss_ml": 310.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 10,
+    "readmission_30_days": false,
+    "recommended_approach": "Microsurgical technique with neuromonitoring. Preserve neural structures.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000095",
+    "patient_profile": {
+      "age": 80,
+      "gender": "female",
+      "bmi": 27.0,
+      "medical_history": [
+        "Asthma"
+      ],
+      "current_medications": [
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.3,
+        "WBC": 10.8,
+        "Platelets": 276.0,
+        "Creatinine": 1.11,
+        "INR": 0.94
+      },
+      "vital_signs": {
+        "BP_systolic": 119.0,
+        "BP_diastolic": 82.0,
+        "Heart_rate": 96.0,
+        "Temperature": 37.0,
+        "SpO2": 98.0
+      },
+      "risk_factors": [
+        "Advanced Age"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "ACL Repair",
+    "urgency": "urgent",
+    "surgeon_experience_years": 3,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Navigation System",
+      "C-Arm"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 3.2,
+    "blood_loss_ml": 286.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000096",
+    "patient_profile": {
+      "age": 85,
+      "gender": "female",
+      "bmi": 34.4,
+      "medical_history": [
+        "Heart Disease",
+        "Hypertension"
+      ],
+      "current_medications": [
+        "Atorvastatin",
+        "Metformin"
+      ],
+      "allergies": [
+        "Penicillin"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.3,
+        "WBC": 5.9,
+        "Platelets": 281.0,
+        "Creatinine": 1.18,
+        "INR": 1.0
+      },
+      "vital_signs": {
+        "BP_systolic": 112.0,
+        "BP_diastolic": 79.0,
+        "Heart_rate": 72.0,
+        "Temperature": 36.7,
+        "SpO2": 98.0
+      },
+      "risk_factors": [
+        "Obesity",
+        "Advanced Age"
+      ]
+    },
+    "surgery_type": "cardiac",
+    "procedure_name": "Pacemaker Implantation",
+    "urgency": "urgent",
+    "surgeon_experience_years": 18,
+    "hospital_volume": "low",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "IABP",
+      "Heart-Lung Machine"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 4.3,
+    "blood_loss_ml": 451.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 5,
+    "readmission_30_days": false,
+    "recommended_approach": "Median sternotomy with cardiopulmonary bypass. Consider minimally invasive approach if suitable.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000097",
+    "patient_profile": {
+      "age": 51,
+      "gender": "male",
+      "bmi": 24.8,
+      "medical_history": [
+        "Heart Disease",
+        "Arthritis",
+        "Asthma"
+      ],
+      "current_medications": [
+        "Metformin",
+        "Omeprazole",
+        "Lisinopril"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 13.7,
+        "WBC": 9.8,
+        "Platelets": 395.0,
+        "Creatinine": 0.87,
+        "INR": 0.92
+      },
+      "vital_signs": {
+        "BP_systolic": 115.0,
+        "BP_diastolic": 80.0,
+        "Heart_rate": 94.0,
+        "Temperature": 37.0,
+        "SpO2": 98.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Total Knee Replacement",
+    "urgency": "emergency",
+    "surgeon_experience_years": 6,
+    "hospital_volume": "medium",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "C-Arm",
+      "Power Tools"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 2.5,
+    "blood_loss_ml": 357.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 3,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000098",
+    "patient_profile": {
+      "age": 34,
+      "gender": "male",
+      "bmi": 20.4,
+      "medical_history": [
+        "Heart Disease"
+      ],
+      "current_medications": [
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lab_results": {
+        "Hemoglobin": 15.9,
+        "WBC": 9.8,
+        "Platelets": 350.0,
+        "Creatinine": 0.76,
+        "INR": 0.97
+      },
+      "vital_signs": {
+        "BP_systolic": 122.0,
+        "BP_diastolic": 79.0,
+        "Heart_rate": 68.0,
+        "Temperature": 36.6,
+        "SpO2": 95.0
+      },
+      "risk_factors": []
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Hip Replacement",
+    "urgency": "elective",
+    "surgeon_experience_years": 10,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Power Tools",
+      "Navigation System"
+    ],
+    "technique_used": "Minimally Invasive",
+    "duration_hours": 2.9,
+    "blood_loss_ml": 409.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 8,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  },
+  {
+    "case_id": "CASE_000099",
+    "patient_profile": {
+      "age": 83,
+      "gender": "male",
+      "bmi": 26.5,
+      "medical_history": [
+        "Diabetes"
+      ],
+      "current_medications": [
+        "Atorvastatin"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lab_results": {
+        "Hemoglobin": 12.0,
+        "WBC": 7.7,
+        "Platelets": 161.0,
+        "Creatinine": 1.12,
+        "INR": 0.9
+      },
+      "vital_signs": {
+        "BP_systolic": 121.0,
+        "BP_diastolic": 73.0,
+        "Heart_rate": 83.0,
+        "Temperature": 37.4,
+        "SpO2": 95.0
+      },
+      "risk_factors": [
+        "Advanced Age",
+        "Diabetes"
+      ]
+    },
+    "surgery_type": "orthopedic",
+    "procedure_name": "Total Knee Replacement",
+    "urgency": "elective",
+    "surgeon_experience_years": 21,
+    "hospital_volume": "high",
+    "equipment_available": [
+      "Standard OR Equipment",
+      "Monitoring Systems",
+      "Anesthesia Machine",
+      "Power Tools",
+      "Navigation System"
+    ],
+    "technique_used": "Robotic-Assisted",
+    "duration_hours": 2.0,
+    "blood_loss_ml": 289.0,
+    "complications": [
+      "None"
+    ],
+    "success": true,
+    "recovery_days": 6,
+    "readmission_30_days": false,
+    "recommended_approach": "Standard surgical approach with attention to alignment and soft tissue balance.",
+    "key_considerations": [
+      "Optimize patient's medical conditions preoperatively",
+      "Ensure appropriate antibiotic prophylaxis",
+      "Monitor for procedure-specific complications",
+      "Early mobilization when appropriate"
+    ],
+    "risk_mitigation": [
+      "DVT prophylaxis per protocol",
+      "Multimodal analgesia to minimize opioid use",
+      "Strict sterile technique",
+      "Clear communication with anesthesia team"
+    ]
+  }
+]

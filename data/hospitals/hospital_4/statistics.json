@@ -1,0 +1,15 @@
+{
+  "hospital_id": 4,
+  "total_cases": 100,
+  "surgery_types": {
+    "cardiac": 20,
+    "orthopedic": 22,
+    "neurological": 8,
+    "general": 34,
+    "oncological": 16
+  },
+  "success_rate": 0.95,
+  "avg_duration": 3.2569999999999997,
+  "avg_recovery": 5.87,
+  "readmission_rate": 0.09
+}

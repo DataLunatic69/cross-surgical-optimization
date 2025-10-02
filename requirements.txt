@@ -1,0 +1,116 @@
+# Core FastAPI
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.12.1
+psycopg2-binary==2.9.9
+asyncpg==0.29.0
+
+# Redis
+redis==5.0.1
+hiredis==2.2.3
+
+# Federated Learning & ML
+flwr==1.6.0
+torch>=2.0.0  # Use latest available version
+transformers==4.35.2
+peft==0.6.2
+accelerate==0.24.1
+datasets==2.14.6
+omegaconf==2.3.0
+protobuf==3.20.3
+tokenizers==0.15.0
+
+# Note: For Windows users, if you encounter issues with bitsandbytes,
+# you can skip it or install bitsandbytes-windows separately
+
+# Data Processing
+
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# WebSocket
+websockets==12.0
+python-socketio==5.10.0
+
+# Monitoring & Logging
+loguru==0.7.2
+prometheus-client==0.19.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Development
+black==23.11.0
+flake8==6.1.0
+pre-commit==3.5.0
+
+
+# # Core FastAPI
+# fastapi==0.104.1
+# uvicorn[standard]==0.24.0
+# python-multipart==0.0.6
+# python-jose[cryptography]==3.3.0
+# passlib[bcrypt]==1.7.4
+# python-dotenv==1.0.0
+
+# # Database
+# sqlalchemy==2.0.23
+# alembic==1.12.1
+
+
+
+# # Redis
+# redis==5.0.1
+# hiredis==2.2.3
+
+# # Federated Learning & ML
+# flwr==1.6.0
+# torch==2.6.0  # Stable version that works well
+
+# peft==0.7.1
+# trl==0.7.4
+# # bitsandbytes - Install separately for Windows (see instructions)
+# accelerate==0.25.0
+# omegaconf==2.3.0
+# # sentencepiece - Will install via transformers dependencies
+# protobuf==3.20.3
+
+# # Data Processing
+
+
+
+
+# # WebSocket
+# websockets==12.0
+# python-socketio==5.10.0
+
+# # Monitoring & Logging
+# loguru==0.7.2
+# prometheus-client==0.19.0
+
+# # Testing
+# pytest==7.4.3
+# pytest-asyncio==0.21.1
+# httpx==0.25.2
+
+# # Development
+# black==23.11.0
+# flake8==6.1.0
+# pre-commit==3.5.0
+
+# transformers
+# pydantic
+# pandas
+# numpy
+# pydantic-settings
+# asyncpg
+# psycopg2-binary
