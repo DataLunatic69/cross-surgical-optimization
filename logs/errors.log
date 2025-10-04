@@ -1,0 +1,8 @@
+2025-10-03 14:02:36 | ERROR    | __main__:test_database_connection:78 - ✗ Database connection failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-10-03 14:02:37 | ERROR    | __main__:test_simple_fl_client:153 - ✗ Cannot import simplified client: cannot import name 'ClientApp' from 'flwr.client' (C:\Users\Aman\Documents\Cross-Hospital-Surgical-Optimization\backend\myenv\Lib\site-packages\flwr\client\__init__.py)
+2025-10-03 14:07:20 | ERROR    | __main__:test_simple_fl_client:154 - ✗ Cannot import simplified client: cannot import name 'ClientApp' from 'flwr.client' (C:\Users\Aman\Documents\Cross-Hospital-Surgical-Optimization\backend\myenv\Lib\site-packages\flwr\client\__init__.py)
+2025-10-03 14:16:51 | ERROR    | __main__:test_database_connection:78 - ✗ Database connection failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-10-03 14:16:51 | ERROR    | __main__:test_simple_fl_client:160 - ✗ Cannot import simplified client: No module named 'app.fl.client.client_app_simple_fixed'
+2025-10-03 14:17:05 | ERROR    | __main__:test_database_connection:78 - ✗ Database connection failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-10-03 14:17:05 | ERROR    | __main__:test_simple_fl_client:160 - ✗ Cannot import simplified client: No module named 'app.fl.client.client_app_simple_fixed'
+2025-10-03 14:20:38 | ERROR    | __main__:test_simple_fl_client:160 - ✗ Cannot import simplified client: No module named 'app.fl.client.client_app_simple_fixed'

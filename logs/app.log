@@ -218,3 +218,437 @@ Hospital 4:
 2025-09-30 10:43:37 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
 2025-09-30 10:43:37 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
 2025-09-30 10:43:37 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-02 14:35:14 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-02 14:35:14 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-02 14:35:14 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-02 14:35:14 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-02 15:01:58 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-02 15:01:58 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-02 15:01:58 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-02 15:01:58 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-02 15:04:19 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-02 15:04:19 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-02 15:04:19 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-02 15:04:19 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-02 15:05:52 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-02 15:05:52 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-02 15:05:52 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-02 15:05:52 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-02 15:12:28 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-02 15:12:28 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-02 15:12:28 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-02 15:12:28 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-02 15:18:37 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-02 15:18:37 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-02 15:18:37 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-02 15:18:37 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-03 13:50:18 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-03 13:50:18 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-03 13:50:18 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-03 13:50:18 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-03 13:50:57 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-03 13:50:57 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-03 13:50:57 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-03 13:50:57 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-03 13:53:05 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-03 13:53:05 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-03 13:53:05 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-03 13:53:05 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-03 14:02:35 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-03 14:02:35 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-03 14:02:35 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-03 14:02:35 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-03 14:02:36 | INFO     | __main__:main:185 - ==================================================
+2025-10-03 14:02:36 | INFO     | __main__:main:186 - FL Components Test (Simplified - No TRL)
+2025-10-03 14:02:36 | INFO     | __main__:main:187 - ==================================================
+2025-10-03 14:02:36 | INFO     | __main__:main:200 - 
+Mock Data Files:
+2025-10-03 14:02:36 | INFO     | __main__:main:201 - ------------------------------
+2025-10-03 14:02:36 | INFO     | __main__:test_mock_data_exists:18 - Testing mock data existence...
+2025-10-03 14:02:36 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 1: 100 cases found
+2025-10-03 14:02:36 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 2: 100 cases found
+2025-10-03 14:02:36 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 3: 100 cases found
+2025-10-03 14:02:36 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 4: 100 cases found
+2025-10-03 14:02:36 | INFO     | __main__:main:200 - 
+Configuration Files:
+2025-10-03 14:02:36 | INFO     | __main__:main:201 - ------------------------------
+2025-10-03 14:02:36 | INFO     | __main__:test_config_exists:45 - Testing configuration files...
+2025-10-03 14:02:36 | INFO     | __main__:test_config_exists:49 - ✓ Config file exists: app\fl\config\model_config.yaml
+2025-10-03 14:02:36 | INFO     | __main__:test_config_exists:56 - ✓ Config file is readable
+2025-10-03 14:02:36 | INFO     | __main__:main:200 - 
+Database Connection:
+2025-10-03 14:02:36 | INFO     | __main__:main:201 - ------------------------------
+2025-10-03 14:02:36 | INFO     | __main__:test_database_connection:68 - Testing database connection...
+2025-10-03 14:02:36 | ERROR    | __main__:test_database_connection:78 - ✗ Database connection failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-10-03 14:02:36 | INFO     | __main__:test_database_connection:79 -   Make sure PostgreSQL container is running
+2025-10-03 14:02:36 | INFO     | __main__:main:200 - 
+Hospital Records:
+2025-10-03 14:02:36 | INFO     | __main__:main:201 - ------------------------------
+2025-10-03 14:02:36 | INFO     | __main__:test_hospitals_in_db:85 - Testing hospital records...
+2025-10-03 14:02:36 | INFO     | __main__:test_hospitals_in_db:92 - No hospitals found. Creating test hospitals...
+2025-10-03 14:02:36 | INFO     | __main__:test_hospitals_in_db:113 - ✓ Created 4 hospitals
+2025-10-03 14:02:36 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP001: Test Hospital 1
+2025-10-03 14:02:36 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP002: Test Hospital 2
+2025-10-03 14:02:36 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP003: Test Hospital 3
+2025-10-03 14:02:36 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP004: Test Hospital 4
+2025-10-03 14:02:36 | INFO     | __main__:main:200 - 
+Simplified FL Client:
+2025-10-03 14:02:36 | INFO     | __main__:main:201 - ------------------------------
+2025-10-03 14:02:36 | INFO     | __main__:test_simple_fl_client:129 - Testing simplified FL client...
+2025-10-03 14:02:37 | ERROR    | __main__:test_simple_fl_client:153 - ✗ Cannot import simplified client: cannot import name 'ClientApp' from 'flwr.client' (C:\Users\Aman\Documents\Cross-Hospital-Surgical-Optimization\backend\myenv\Lib\site-packages\flwr\client\__init__.py)
+2025-10-03 14:02:37 | INFO     | __main__:test_simple_fl_client:154 -   Make sure app/fl/client/client_app_simple.py exists
+2025-10-03 14:02:37 | INFO     | __main__:main:200 - 
+Training Service:
+2025-10-03 14:02:37 | INFO     | __main__:main:201 - ------------------------------
+2025-10-03 14:02:37 | INFO     | __main__:test_training_service:163 - Testing training service...
+2025-10-03 14:02:37 | INFO     | __main__:test_training_service:167 - ✓ Training service can be imported
+2025-10-03 14:02:37 | INFO     | __main__:test_training_service:171 - ✓ Active sessions: 0
+2025-10-03 14:02:37 | INFO     | __main__:main:210 - 
+==================================================
+2025-10-03 14:02:37 | INFO     | __main__:main:211 - Test Summary
+2025-10-03 14:02:37 | INFO     | __main__:main:212 - ==================================================
+2025-10-03 14:02:37 | INFO     | __main__:main:216 - Mock Data Files: ✓ PASSED
+2025-10-03 14:02:37 | INFO     | __main__:main:216 - Configuration Files: ✓ PASSED
+2025-10-03 14:02:37 | INFO     | __main__:main:216 - Database Connection: ✗ FAILED
+2025-10-03 14:02:37 | INFO     | __main__:main:216 - Hospital Records: ✓ PASSED
+2025-10-03 14:02:37 | INFO     | __main__:main:216 - Simplified FL Client: ✗ FAILED
+2025-10-03 14:02:37 | INFO     | __main__:main:216 - Training Service: ✓ PASSED
+2025-10-03 14:02:37 | INFO     | __main__:main:225 - 
+⚠️ Some tests failed
+2025-10-03 14:02:37 | INFO     | __main__:main:226 - 
+Suggested fixes:
+2025-10-03 14:02:37 | INFO     | __main__:main:232 - 2. Start Docker: docker-compose up -d
+2025-10-03 14:02:37 | INFO     | __main__:main:235 - 3. Ensure client_app_simple.py was created from earlier steps
+2025-10-03 14:07:17 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-03 14:07:17 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-03 14:07:17 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-03 14:07:17 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-03 14:07:18 | INFO     | __main__:main:186 - ==================================================
+2025-10-03 14:07:18 | INFO     | __main__:main:187 - FL Components Test (Simplified - No TRL)
+2025-10-03 14:07:18 | INFO     | __main__:main:188 - ==================================================
+2025-10-03 14:07:18 | INFO     | __main__:main:201 - 
+Mock Data Files:
+2025-10-03 14:07:18 | INFO     | __main__:main:202 - ------------------------------
+2025-10-03 14:07:18 | INFO     | __main__:test_mock_data_exists:18 - Testing mock data existence...
+2025-10-03 14:07:18 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 1: 100 cases found
+2025-10-03 14:07:18 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 2: 100 cases found
+2025-10-03 14:07:18 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 3: 100 cases found
+2025-10-03 14:07:18 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 4: 100 cases found
+2025-10-03 14:07:18 | INFO     | __main__:main:201 - 
+Configuration Files:
+2025-10-03 14:07:18 | INFO     | __main__:main:202 - ------------------------------
+2025-10-03 14:07:18 | INFO     | __main__:test_config_exists:45 - Testing configuration files...
+2025-10-03 14:07:18 | INFO     | __main__:test_config_exists:49 - ✓ Config file exists: app\fl\config\model_config.yaml
+2025-10-03 14:07:18 | INFO     | __main__:test_config_exists:56 - ✓ Config file is readable
+2025-10-03 14:07:18 | INFO     | __main__:main:201 - 
+Database Connection:
+2025-10-03 14:07:18 | INFO     | __main__:main:202 - ------------------------------
+2025-10-03 14:07:18 | INFO     | __main__:test_database_connection:68 - Testing database connection...
+2025-10-03 14:07:18 | INFO     | __main__:test_database_connection:76 - ✓ Database connection successful
+2025-10-03 14:07:18 | INFO     | __main__:main:201 - 
+Hospital Records:
+2025-10-03 14:07:18 | INFO     | __main__:main:202 - ------------------------------
+2025-10-03 14:07:18 | INFO     | __main__:test_hospitals_in_db:86 - Testing hospital records...
+2025-10-03 14:07:18 | INFO     | __main__:test_hospitals_in_db:116 - ✓ Found 4 hospitals
+2025-10-03 14:07:18 | INFO     | __main__:test_hospitals_in_db:119 -   - HOSP001: Test Hospital 1
+2025-10-03 14:07:18 | INFO     | __main__:test_hospitals_in_db:119 -   - HOSP002: Test Hospital 2
+2025-10-03 14:07:18 | INFO     | __main__:test_hospitals_in_db:119 -   - HOSP003: Test Hospital 3
+2025-10-03 14:07:18 | INFO     | __main__:test_hospitals_in_db:119 -   - HOSP004: Test Hospital 4
+2025-10-03 14:07:18 | INFO     | __main__:main:201 - 
+Simplified FL Client:
+2025-10-03 14:07:18 | INFO     | __main__:main:202 - ------------------------------
+2025-10-03 14:07:18 | INFO     | __main__:test_simple_fl_client:130 - Testing simplified FL client...
+2025-10-03 14:07:20 | ERROR    | __main__:test_simple_fl_client:154 - ✗ Cannot import simplified client: cannot import name 'ClientApp' from 'flwr.client' (C:\Users\Aman\Documents\Cross-Hospital-Surgical-Optimization\backend\myenv\Lib\site-packages\flwr\client\__init__.py)
+2025-10-03 14:07:20 | INFO     | __main__:test_simple_fl_client:155 -   Make sure app/fl/client/client_app_simple.py exists
+2025-10-03 14:07:20 | INFO     | __main__:main:201 - 
+Training Service:
+2025-10-03 14:07:20 | INFO     | __main__:main:202 - ------------------------------
+2025-10-03 14:07:20 | INFO     | __main__:test_training_service:164 - Testing training service...
+2025-10-03 14:07:20 | INFO     | __main__:test_training_service:168 - ✓ Training service can be imported
+2025-10-03 14:07:20 | INFO     | __main__:test_training_service:172 - ✓ Active sessions: 0
+2025-10-03 14:07:20 | INFO     | __main__:main:211 - 
+==================================================
+2025-10-03 14:07:20 | INFO     | __main__:main:212 - Test Summary
+2025-10-03 14:07:20 | INFO     | __main__:main:213 - ==================================================
+2025-10-03 14:07:20 | INFO     | __main__:main:217 - Mock Data Files: ✓ PASSED
+2025-10-03 14:07:20 | INFO     | __main__:main:217 - Configuration Files: ✓ PASSED
+2025-10-03 14:07:20 | INFO     | __main__:main:217 - Database Connection: ✓ PASSED
+2025-10-03 14:07:20 | INFO     | __main__:main:217 - Hospital Records: ✓ PASSED
+2025-10-03 14:07:20 | INFO     | __main__:main:217 - Simplified FL Client: ✗ FAILED
+2025-10-03 14:07:20 | INFO     | __main__:main:217 - Training Service: ✓ PASSED
+2025-10-03 14:07:20 | INFO     | __main__:main:226 - 
+⚠️ Some tests failed
+2025-10-03 14:07:20 | INFO     | __main__:main:227 - 
+Suggested fixes:
+2025-10-03 14:07:20 | INFO     | __main__:main:236 - 3. Ensure client_app_simple.py was created from earlier steps
+2025-10-03 14:16:51 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-03 14:16:51 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-03 14:16:51 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-03 14:16:51 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-03 14:16:51 | INFO     | __main__:main:202 - ==================================================
+2025-10-03 14:16:51 | INFO     | __main__:main:203 - FL Components Test (Simplified - No TRL)
+2025-10-03 14:16:51 | INFO     | __main__:main:204 - ==================================================
+2025-10-03 14:16:51 | INFO     | __main__:main:217 - 
+Mock Data Files:
+2025-10-03 14:16:51 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:16:51 | INFO     | __main__:test_mock_data_exists:18 - Testing mock data existence...
+2025-10-03 14:16:51 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 1: 100 cases found
+2025-10-03 14:16:51 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 2: 100 cases found
+2025-10-03 14:16:51 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 3: 100 cases found
+2025-10-03 14:16:51 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 4: 100 cases found
+2025-10-03 14:16:51 | INFO     | __main__:main:217 - 
+Configuration Files:
+2025-10-03 14:16:51 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:16:51 | INFO     | __main__:test_config_exists:45 - Testing configuration files...
+2025-10-03 14:16:51 | INFO     | __main__:test_config_exists:49 - ✓ Config file exists: app\fl\config\model_config.yaml
+2025-10-03 14:16:51 | INFO     | __main__:test_config_exists:56 - ✓ Config file is readable
+2025-10-03 14:16:51 | INFO     | __main__:main:217 - 
+Database Connection:
+2025-10-03 14:16:51 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:16:51 | INFO     | __main__:test_database_connection:68 - Testing database connection...
+2025-10-03 14:16:51 | ERROR    | __main__:test_database_connection:78 - ✗ Database connection failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-10-03 14:16:51 | INFO     | __main__:test_database_connection:79 -   Make sure PostgreSQL container is running
+2025-10-03 14:16:51 | INFO     | __main__:main:217 - 
+Hospital Records:
+2025-10-03 14:16:51 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:16:51 | INFO     | __main__:test_hospitals_in_db:85 - Testing hospital records...
+2025-10-03 14:16:51 | INFO     | __main__:test_hospitals_in_db:115 - ✓ Found 4 hospitals
+2025-10-03 14:16:51 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP001: Test Hospital 1
+2025-10-03 14:16:51 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP002: Test Hospital 2
+2025-10-03 14:16:51 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP003: Test Hospital 3
+2025-10-03 14:16:51 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP004: Test Hospital 4
+2025-10-03 14:16:51 | INFO     | __main__:main:217 - 
+Simplified FL Client:
+2025-10-03 14:16:51 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:16:51 | INFO     | __main__:test_simple_fl_client:129 - Testing simplified FL client...
+2025-10-03 14:16:51 | ERROR    | __main__:test_simple_fl_client:160 - ✗ Cannot import simplified client: No module named 'app.fl.client.client_app_simple_fixed'
+2025-10-03 14:16:51 | INFO     | __main__:test_simple_fl_client:161 -   Creating the fixed client file...
+2025-10-03 14:16:51 | INFO     | __main__:test_simple_fl_client:168 -   File will be created by fix script
+2025-10-03 14:16:51 | INFO     | __main__:main:217 - 
+Training Service:
+2025-10-03 14:16:51 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:16:51 | INFO     | __main__:test_training_service:180 - Testing training service...
+2025-10-03 14:16:51 | INFO     | __main__:test_training_service:184 - ✓ Training service can be imported
+2025-10-03 14:16:51 | INFO     | __main__:test_training_service:188 - ✓ Active sessions: 0
+2025-10-03 14:16:51 | INFO     | __main__:main:227 - 
+==================================================
+2025-10-03 14:16:51 | INFO     | __main__:main:228 - Test Summary
+2025-10-03 14:16:51 | INFO     | __main__:main:229 - ==================================================
+2025-10-03 14:16:51 | INFO     | __main__:main:233 - Mock Data Files: ✓ PASSED
+2025-10-03 14:16:51 | INFO     | __main__:main:233 - Configuration Files: ✓ PASSED
+2025-10-03 14:16:51 | INFO     | __main__:main:233 - Database Connection: ✗ FAILED
+2025-10-03 14:16:51 | INFO     | __main__:main:233 - Hospital Records: ✓ PASSED
+2025-10-03 14:16:51 | INFO     | __main__:main:233 - Simplified FL Client: ✗ FAILED
+2025-10-03 14:16:51 | INFO     | __main__:main:233 - Training Service: ✓ PASSED
+2025-10-03 14:16:51 | INFO     | __main__:main:242 - 
+⚠️ Some tests failed
+2025-10-03 14:16:51 | INFO     | __main__:main:243 - 
+Suggested fixes:
+2025-10-03 14:16:51 | INFO     | __main__:main:249 - 2. Start Docker: docker-compose up -d
+2025-10-03 14:16:51 | INFO     | __main__:main:252 - 3. Ensure client_app_simple.py was created from earlier steps
+2025-10-03 14:17:04 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-03 14:17:04 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-03 14:17:04 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-03 14:17:04 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-03 14:17:05 | INFO     | __main__:main:202 - ==================================================
+2025-10-03 14:17:05 | INFO     | __main__:main:203 - FL Components Test (Simplified - No TRL)
+2025-10-03 14:17:05 | INFO     | __main__:main:204 - ==================================================
+2025-10-03 14:17:05 | INFO     | __main__:main:217 - 
+Mock Data Files:
+2025-10-03 14:17:05 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:17:05 | INFO     | __main__:test_mock_data_exists:18 - Testing mock data existence...
+2025-10-03 14:17:05 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 1: 100 cases found
+2025-10-03 14:17:05 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 2: 100 cases found
+2025-10-03 14:17:05 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 3: 100 cases found
+2025-10-03 14:17:05 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 4: 100 cases found
+2025-10-03 14:17:05 | INFO     | __main__:main:217 - 
+Configuration Files:
+2025-10-03 14:17:05 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:17:05 | INFO     | __main__:test_config_exists:45 - Testing configuration files...
+2025-10-03 14:17:05 | INFO     | __main__:test_config_exists:49 - ✓ Config file exists: app\fl\config\model_config.yaml
+2025-10-03 14:17:05 | INFO     | __main__:test_config_exists:56 - ✓ Config file is readable
+2025-10-03 14:17:05 | INFO     | __main__:main:217 - 
+Database Connection:
+2025-10-03 14:17:05 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:17:05 | INFO     | __main__:test_database_connection:68 - Testing database connection...
+2025-10-03 14:17:05 | ERROR    | __main__:test_database_connection:78 - ✗ Database connection failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-10-03 14:17:05 | INFO     | __main__:test_database_connection:79 -   Make sure PostgreSQL container is running
+2025-10-03 14:17:05 | INFO     | __main__:main:217 - 
+Hospital Records:
+2025-10-03 14:17:05 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:17:05 | INFO     | __main__:test_hospitals_in_db:85 - Testing hospital records...
+2025-10-03 14:17:05 | INFO     | __main__:test_hospitals_in_db:115 - ✓ Found 4 hospitals
+2025-10-03 14:17:05 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP001: Test Hospital 1
+2025-10-03 14:17:05 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP002: Test Hospital 2
+2025-10-03 14:17:05 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP003: Test Hospital 3
+2025-10-03 14:17:05 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP004: Test Hospital 4
+2025-10-03 14:17:05 | INFO     | __main__:main:217 - 
+Simplified FL Client:
+2025-10-03 14:17:05 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:17:05 | INFO     | __main__:test_simple_fl_client:129 - Testing simplified FL client...
+2025-10-03 14:17:05 | ERROR    | __main__:test_simple_fl_client:160 - ✗ Cannot import simplified client: No module named 'app.fl.client.client_app_simple_fixed'
+2025-10-03 14:17:05 | INFO     | __main__:test_simple_fl_client:161 -   Creating the fixed client file...
+2025-10-03 14:17:05 | INFO     | __main__:test_simple_fl_client:168 -   File will be created by fix script
+2025-10-03 14:17:05 | INFO     | __main__:main:217 - 
+Training Service:
+2025-10-03 14:17:05 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:17:05 | INFO     | __main__:test_training_service:180 - Testing training service...
+2025-10-03 14:17:05 | INFO     | __main__:test_training_service:184 - ✓ Training service can be imported
+2025-10-03 14:17:05 | INFO     | __main__:test_training_service:188 - ✓ Active sessions: 0
+2025-10-03 14:17:05 | INFO     | __main__:main:227 - 
+==================================================
+2025-10-03 14:17:05 | INFO     | __main__:main:228 - Test Summary
+2025-10-03 14:17:05 | INFO     | __main__:main:229 - ==================================================
+2025-10-03 14:17:05 | INFO     | __main__:main:233 - Mock Data Files: ✓ PASSED
+2025-10-03 14:17:05 | INFO     | __main__:main:233 - Configuration Files: ✓ PASSED
+2025-10-03 14:17:05 | INFO     | __main__:main:233 - Database Connection: ✗ FAILED
+2025-10-03 14:17:05 | INFO     | __main__:main:233 - Hospital Records: ✓ PASSED
+2025-10-03 14:17:05 | INFO     | __main__:main:233 - Simplified FL Client: ✗ FAILED
+2025-10-03 14:17:05 | INFO     | __main__:main:233 - Training Service: ✓ PASSED
+2025-10-03 14:17:05 | INFO     | __main__:main:242 - 
+⚠️ Some tests failed
+2025-10-03 14:17:05 | INFO     | __main__:main:243 - 
+Suggested fixes:
+2025-10-03 14:17:05 | INFO     | __main__:main:249 - 2. Start Docker: docker-compose up -d
+2025-10-03 14:17:05 | INFO     | __main__:main:252 - 3. Ensure client_app_simple.py was created from earlier steps
+2025-10-03 14:20:38 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-03 14:20:38 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-03 14:20:38 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-03 14:20:38 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-03 14:20:38 | INFO     | __main__:main:202 - ==================================================
+2025-10-03 14:20:38 | INFO     | __main__:main:203 - FL Components Test (Simplified - No TRL)
+2025-10-03 14:20:38 | INFO     | __main__:main:204 - ==================================================
+2025-10-03 14:20:38 | INFO     | __main__:main:217 - 
+Mock Data Files:
+2025-10-03 14:20:38 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:20:38 | INFO     | __main__:test_mock_data_exists:18 - Testing mock data existence...
+2025-10-03 14:20:38 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 1: 100 cases found
+2025-10-03 14:20:38 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 2: 100 cases found
+2025-10-03 14:20:38 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 3: 100 cases found
+2025-10-03 14:20:38 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 4: 100 cases found
+2025-10-03 14:20:38 | INFO     | __main__:main:217 - 
+Configuration Files:
+2025-10-03 14:20:38 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:20:38 | INFO     | __main__:test_config_exists:45 - Testing configuration files...
+2025-10-03 14:20:38 | INFO     | __main__:test_config_exists:49 - ✓ Config file exists: app\fl\config\model_config.yaml
+2025-10-03 14:20:38 | INFO     | __main__:test_config_exists:56 - ✓ Config file is readable
+2025-10-03 14:20:38 | INFO     | __main__:main:217 - 
+Database Connection:
+2025-10-03 14:20:38 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:20:38 | INFO     | __main__:test_database_connection:68 - Testing database connection...
+2025-10-03 14:20:38 | INFO     | __main__:test_database_connection:75 - ✓ Database connection successful
+2025-10-03 14:20:38 | INFO     | __main__:main:217 - 
+Hospital Records:
+2025-10-03 14:20:38 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:20:38 | INFO     | __main__:test_hospitals_in_db:85 - Testing hospital records...
+2025-10-03 14:20:38 | INFO     | __main__:test_hospitals_in_db:115 - ✓ Found 4 hospitals
+2025-10-03 14:20:38 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP001: Test Hospital 1
+2025-10-03 14:20:38 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP002: Test Hospital 2
+2025-10-03 14:20:38 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP003: Test Hospital 3
+2025-10-03 14:20:38 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP004: Test Hospital 4
+2025-10-03 14:20:38 | INFO     | __main__:main:217 - 
+Simplified FL Client:
+2025-10-03 14:20:38 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:20:38 | INFO     | __main__:test_simple_fl_client:129 - Testing simplified FL client...
+2025-10-03 14:20:38 | ERROR    | __main__:test_simple_fl_client:160 - ✗ Cannot import simplified client: No module named 'app.fl.client.client_app_simple_fixed'
+2025-10-03 14:20:38 | INFO     | __main__:test_simple_fl_client:161 -   Creating the fixed client file...
+2025-10-03 14:20:38 | INFO     | __main__:test_simple_fl_client:168 -   File will be created by fix script
+2025-10-03 14:20:38 | INFO     | __main__:main:217 - 
+Training Service:
+2025-10-03 14:20:38 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:20:38 | INFO     | __main__:test_training_service:180 - Testing training service...
+2025-10-03 14:20:38 | INFO     | __main__:test_training_service:184 - ✓ Training service can be imported
+2025-10-03 14:20:38 | INFO     | __main__:test_training_service:188 - ✓ Active sessions: 0
+2025-10-03 14:20:38 | INFO     | __main__:main:227 - 
+==================================================
+2025-10-03 14:20:38 | INFO     | __main__:main:228 - Test Summary
+2025-10-03 14:20:38 | INFO     | __main__:main:229 - ==================================================
+2025-10-03 14:20:38 | INFO     | __main__:main:233 - Mock Data Files: ✓ PASSED
+2025-10-03 14:20:38 | INFO     | __main__:main:233 - Configuration Files: ✓ PASSED
+2025-10-03 14:20:38 | INFO     | __main__:main:233 - Database Connection: ✓ PASSED
+2025-10-03 14:20:38 | INFO     | __main__:main:233 - Hospital Records: ✓ PASSED
+2025-10-03 14:20:38 | INFO     | __main__:main:233 - Simplified FL Client: ✗ FAILED
+2025-10-03 14:20:38 | INFO     | __main__:main:233 - Training Service: ✓ PASSED
+2025-10-03 14:20:38 | INFO     | __main__:main:242 - 
+⚠️ Some tests failed
+2025-10-03 14:20:38 | INFO     | __main__:main:243 - 
+Suggested fixes:
+2025-10-03 14:20:38 | INFO     | __main__:main:252 - 3. Ensure client_app_simple.py was created from earlier steps
+2025-10-03 14:24:15 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-03 14:24:15 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-03 14:24:15 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-03 14:24:15 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-03 14:24:15 | INFO     | __main__:main:202 - ==================================================
+2025-10-03 14:24:15 | INFO     | __main__:main:203 - FL Components Test (Simplified - No TRL)
+2025-10-03 14:24:15 | INFO     | __main__:main:204 - ==================================================
+2025-10-03 14:24:15 | INFO     | __main__:main:217 - 
+Mock Data Files:
+2025-10-03 14:24:15 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:24:15 | INFO     | __main__:test_mock_data_exists:18 - Testing mock data existence...
+2025-10-03 14:24:15 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 1: 100 cases found
+2025-10-03 14:24:15 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 2: 100 cases found
+2025-10-03 14:24:15 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 3: 100 cases found
+2025-10-03 14:24:15 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 4: 100 cases found
+2025-10-03 14:24:15 | INFO     | __main__:main:217 - 
+Configuration Files:
+2025-10-03 14:24:15 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:24:15 | INFO     | __main__:test_config_exists:45 - Testing configuration files...
+2025-10-03 14:24:15 | INFO     | __main__:test_config_exists:49 - ✓ Config file exists: app\fl\config\model_config.yaml
+2025-10-03 14:24:15 | INFO     | __main__:test_config_exists:56 - ✓ Config file is readable
+2025-10-03 14:24:15 | INFO     | __main__:main:217 - 
+Database Connection:
+2025-10-03 14:24:15 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:24:15 | INFO     | __main__:test_database_connection:68 - Testing database connection...
+2025-10-03 14:24:15 | INFO     | __main__:test_database_connection:75 - ✓ Database connection successful
+2025-10-03 14:24:15 | INFO     | __main__:main:217 - 
+Hospital Records:
+2025-10-03 14:24:15 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:24:15 | INFO     | __main__:test_hospitals_in_db:85 - Testing hospital records...
+2025-10-03 14:24:15 | INFO     | __main__:test_hospitals_in_db:115 - ✓ Found 4 hospitals
+2025-10-03 14:24:15 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP001: Test Hospital 1
+2025-10-03 14:24:15 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP002: Test Hospital 2
+2025-10-03 14:24:15 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP003: Test Hospital 3
+2025-10-03 14:24:15 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP004: Test Hospital 4
+2025-10-03 14:24:15 | INFO     | __main__:main:217 - 
+Simplified FL Client:
+2025-10-03 14:24:15 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:24:15 | INFO     | __main__:test_simple_fl_client:129 - Testing simplified FL client...
+2025-10-03 14:24:16 | INFO     | app.fl.client.client_app_simple:__init__:24 - Initializing simplified FL client for hospital 1
+2025-10-03 14:24:16 | INFO     | app.fl.client.client_app_simple:fit:43 - Hospital 1: Round 1
+2025-10-03 14:24:16 | INFO     | __main__:test_simple_fl_client:153 - ✓ Simplified FL client works
+2025-10-03 14:24:16 | INFO     | __main__:test_simple_fl_client:154 -   Samples: 100
+2025-10-03 14:24:16 | INFO     | __main__:test_simple_fl_client:155 -   Loss: 1.7138
+2025-10-03 14:24:16 | INFO     | __main__:main:217 - 
+Training Service:
+2025-10-03 14:24:16 | INFO     | __main__:main:218 - ------------------------------
+2025-10-03 14:24:16 | INFO     | __main__:test_training_service:180 - Testing training service...
+2025-10-03 14:24:16 | INFO     | __main__:test_training_service:184 - ✓ Training service can be imported
+2025-10-03 14:24:16 | INFO     | __main__:test_training_service:188 - ✓ Active sessions: 0
+2025-10-03 14:24:16 | INFO     | __main__:main:227 - 
+==================================================
+2025-10-03 14:24:16 | INFO     | __main__:main:228 - Test Summary
+2025-10-03 14:24:16 | INFO     | __main__:main:229 - ==================================================
+2025-10-03 14:24:16 | INFO     | __main__:main:233 - Mock Data Files: ✓ PASSED
+2025-10-03 14:24:16 | INFO     | __main__:main:233 - Configuration Files: ✓ PASSED
+2025-10-03 14:24:16 | INFO     | __main__:main:233 - Database Connection: ✓ PASSED
+2025-10-03 14:24:16 | INFO     | __main__:main:233 - Hospital Records: ✓ PASSED
+2025-10-03 14:24:16 | INFO     | __main__:main:233 - Simplified FL Client: ✓ PASSED
+2025-10-03 14:24:16 | INFO     | __main__:main:233 - Training Service: ✓ PASSED
+2025-10-03 14:24:16 | INFO     | __main__:main:238 - 
+✅ All tests passed!
+2025-10-03 14:24:16 | INFO     | __main__:main:239 - 
+Next: Start the API server
+2025-10-03 14:24:16 | INFO     | __main__:main:240 -   python -m uvicorn app.main:app --reload
+2025-10-03 15:02:03 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-03 15:02:03 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-03 15:02:03 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-03 15:02:03 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-03 15:02:03 | INFO     | app.db.redis_client:_connect:45 - Successfully connected to Redis
+2025-10-03 15:02:03 | INFO     | app.main:lifespan:24 - Starting up Surgical Optimizer application...
+2025-10-03 15:02:04 | INFO     | app.db.base:init_db:78 - Database tables created successfully
+2025-10-03 15:02:04 | INFO     | app.main:lifespan:29 - Database initialized successfully
+2025-10-03 15:02:04 | INFO     | app.main:lifespan:36 - Redis connection established
+2025-10-03 15:02:04 | INFO     | app.main:lifespan:40 - Application startup complete
+2025-10-03 17:43:48 | INFO     | app.main:lifespan:45 - Shutting down application...
+2025-10-03 17:43:48 | INFO     | app.db.redis_client:close:185 - Redis connection closed
+2025-10-03 17:43:48 | INFO     | app.main:lifespan:53 - Application shutdown complete
