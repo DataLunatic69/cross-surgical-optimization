@@ -87,20 +87,30 @@ async def add_process_time_header(request, call_next):
     return response
 
 # Health check endpoint
+# app/main.py - UPDATE THE HEALTH CHECK ENDPOINT
+from sqlalchemy import text  # ADD THIS IMPORT
+
+# Health check endpoint
 @app.get("/health", tags=["Health"])
 async def health_check():
     """
     Check application health status.
     """
     try:
-        # Check database
-        engine.execute("SELECT 1")
+        # Check database - FIXED: Use connection with text()
+        with engine.connect() as conn:
+            conn.execute(text("SELECT 1"))
         db_status = "healthy"
     except Exception as e:
+        app_logger.error(f"Database health check failed: {e}")
         db_status = f"unhealthy: {str(e)}"
     
     # Check Redis
-    redis_status = "healthy" if redis_client.ping() else "unhealthy"
+    try:
+        redis_status = "healthy" if redis_client.ping() else "unhealthy"
+    except Exception as e:
+        app_logger.error(f"Redis health check failed: {e}")
+        redis_status = f"unhealthy: {str(e)}"
     
     health_status = {
         "status": "healthy" if db_status == "healthy" and redis_status == "healthy" else "degraded",

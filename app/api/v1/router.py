@@ -1,17 +1,16 @@
-"""
-Main API router for v1 endpoints.
-"""
+# app/api/v1/router.py
 from fastapi import APIRouter
 
 # Import endpoint routers
-from app.api.v1.endpoints import training
+from app.api.v1.endpoints import auth, training
 
 api_router = APIRouter()
 
 # Include sub-routers
+api_router.include_router(auth.router, prefix="/auth", tags=["Authentication"])
 api_router.include_router(training.router, prefix="/training", tags=["Training"])
 
-# Temporary test endpoint
+# Temporary test endpoint (now protected)
 @api_router.get("/test")
 async def test_endpoint():
     """Test endpoint to verify API is working."""

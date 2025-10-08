@@ -2,12 +2,14 @@
 API endpoints for managing federated learning training sessions.
 """
 from typing import List, Optional
-from fastapi import APIRouter, Depends, HTTPException, BackgroundTasks
+from fastapi import APIRouter, Depends, HTTPException, BackgroundTasks, status
 from sqlalchemy.orm import Session
 
 from app.db.base import get_db
 from app.services.training import fl_orchestration_service
 from app.models.training import TrainingSession, TrainingStatus
+from app.models.user import User, UserRole
+from app.core.security import get_current_user
 from app.utils.logger import app_logger
 from pydantic import BaseModel
 
@@ -36,9 +38,16 @@ class TrainingResponse(BaseModel):
 async def start_training(
     request: TrainingRequest,
     background_tasks: BackgroundTasks,
+    current_user: User = Depends(get_current_user),  # Add this line
     db: Session = Depends(get_db)
 ):
     """Start a new federated learning training session."""
+    # Check if user has permission to start training
+    if current_user.role not in [UserRole.SUPER_ADMIN, UserRole.HOSPITAL_ADMIN]:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Insufficient permissions to start training"
+        )
     try:
         # Start training in background
         session = await fl_orchestration_service.start_training(

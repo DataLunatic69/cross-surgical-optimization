@@ -2,12 +2,17 @@
 User and authentication related models.
 """
 from sqlalchemy import Column, Integer, String, Boolean, DateTime, ForeignKey, Enum as SQLEnum
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import relationship, Session
 from sqlalchemy.sql import func
-from datetime import datetime
+from datetime import datetime, timedelta
+from typing import List
 import enum
+import json
 from app.db.base import Base
+from passlib.context import CryptContext
 
+# Password context for hashing
+pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 class UserRole(enum.Enum):
     """User role enumeration."""
@@ -48,7 +53,41 @@ class User(Base):
     api_keys = relationship("APIKey", back_populates="user", cascade="all, delete-orphan")
     sessions = relationship("UserSession", back_populates="user", cascade="all, delete-orphan")
     predictions = relationship("Prediction", back_populates="user")
+    def verify_password(self, plain_password: str) -> bool:
+        """Verify password against hash."""
+        return pwd_context.verify(plain_password, self.hashed_password)
     
+    @classmethod
+    def get_password_hash(cls, password: str) -> str:
+        """Create password hash."""
+        # Ensure password is within bcrypt's 72 byte limit
+        password_bytes = password.encode('utf-8')
+        if len(password_bytes) > 72:
+            password = password_bytes[:72].decode('utf-8', errors='ignore')
+        return pwd_context.hash(password)
+    
+    def update_last_login(self, db: Session):
+        """Update last login timestamp."""
+        self.last_login = datetime.now()
+        db.commit()
+    
+    def create_api_key(self, db: Session, name: str, description: str = None, scopes: List[str] = None):
+        """Create a new API key for the user."""
+        import secrets
+        key = secrets.token_urlsafe(32)
+        
+        api_key = APIKey(
+            key=key,
+            name=name,
+            description=description,
+            user_id=self.id,
+            scopes=json.dumps(scopes) if scopes else "[]",
+            expires_at=datetime.now() + timedelta(days=365)  # 1 year expiry
+        )
+        db.add(api_key)
+        db.commit()
+        db.refresh(api_key)
+        return api_key
     def __repr__(self):
         return f"<User(username={self.username}, email={self.email}, role={self.role})>"
 

@@ -58,7 +58,7 @@ class FLOrchestrationService:
                 min_clients=min_clients,
                 fraction_fit=1.0,
                 fraction_eval=0.5,
-                base_model="medalpaca/medalpaca-7b",
+                base_model="microsoft/phi-2",  # Use smaller model for testing
                 model_config={
                     "num_hospitals": len(available_hospitals),
                     "hospital_ids": [h.id for h in available_hospitals]
@@ -96,7 +96,7 @@ class FLOrchestrationService:
         return session
     
     def _run_fl_server(self, session_id: int, num_rounds: int):
-        """Run FL server in subprocess."""
+        """Run FL server in subprocess with correct Flower 1.6.0 command."""
         try:
             # Update status
             with SessionLocal() as db:
@@ -105,13 +105,26 @@ class FLOrchestrationService:
                 session.started_at = datetime.now()
                 db.commit()
             
-            # Start server process
+            # CORRECTED: Flower 1.6.0 server command
             cmd = [
-                "python", "-m", "flwr.server",
-                "--app", "app.fl.server.server_app:app",
-                "--config", f"num-server-rounds={num_rounds}",
-                "--insecure"  # For development only
+                "python", "-c", 
+                f"""
+import sys
+sys.path.append('.')
+from app.fl.server.server_app import server_fn
+from flwr.server import run_server
+from flwr.common import Context
+
+# Create context with configuration
+context = Context()
+context.run_config['num-server-rounds'] = {num_rounds}
+
+# Run server
+run_server(server_fn=server_fn, context=context)
+                """
             ]
+            
+            app_logger.info(f"Starting FL server for session {session_id}...")
             
             process = subprocess.Popen(
                 cmd,
@@ -125,11 +138,17 @@ class FLOrchestrationService:
             # Monitor process
             stdout, stderr = process.communicate()
             
+            # Log output
+            if stdout:
+                app_logger.info(f"FL Server stdout: {stdout}")
+            if stderr:
+                app_logger.error(f"FL Server stderr: {stderr}")
+            
             if process.returncode == 0:
                 app_logger.info(f"FL server for session {session_id} completed successfully")
                 status = TrainingStatus.COMPLETED
             else:
-                app_logger.error(f"FL server for session {session_id} failed: {stderr}")
+                app_logger.error(f"FL server for session {session_id} failed with return code: {process.returncode}")
                 status = TrainingStatus.FAILED
             
             # Update status
@@ -147,16 +166,29 @@ class FLOrchestrationService:
                 db.commit()
     
     def _run_fl_client(self, hospital_id: int, session_id: int):
-        """Run FL client for a hospital."""
+        """Run FL client for a hospital with correct Flower 1.6.0 command."""
         try:
-            # Start client process
+            # CORRECTED: Flower 1.6.0 client command
             cmd = [
-                "python", "-m", "flwr.client",
-                "--app", "app.fl.client.client_app:app",
-                "--node-config", f"hospital_id={hospital_id}",
-                "--server", "127.0.0.1:8080",
-                "--insecure"
+                "python", "-c", 
+                f"""
+import sys
+sys.path.append('.')
+from app.fl.client.client_app_light import LightSurgicalFLClient
+from flwr.client import run_client
+from flwr.common import Context
+
+# Create context with hospital configuration
+context = Context()
+context.node_config['hospital_id'] = '{hospital_id}'
+
+# Create and run client
+client = LightSurgicalFLClient(hospital_id='{hospital_id}')
+run_client(client=client.to_client(), context=context)
+                """
             ]
+            
+            app_logger.info(f"Starting FL client for hospital {hospital_id}...")
             
             process = subprocess.Popen(
                 cmd,
@@ -168,10 +200,16 @@ class FLOrchestrationService:
             # Monitor process
             stdout, stderr = process.communicate()
             
+            # Log output
+            if stdout:
+                app_logger.info(f"FL Client {hospital_id} stdout: {stdout}")
+            if stderr:
+                app_logger.error(f"FL Client {hospital_id} stderr: {stderr}")
+            
             if process.returncode == 0:
                 app_logger.info(f"FL client for hospital {hospital_id} completed successfully")
             else:
-                app_logger.error(f"FL client for hospital {hospital_id} failed: {stderr}")
+                app_logger.error(f"FL client for hospital {hospital_id} failed with return code: {process.returncode}")
                 
         except Exception as e:
             app_logger.error(f"Error running FL client for hospital {hospital_id}: {e}")

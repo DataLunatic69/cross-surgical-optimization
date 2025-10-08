@@ -652,3 +652,341 @@ Next: Start the API server
 2025-10-03 17:43:48 | INFO     | app.main:lifespan:45 - Shutting down application...
 2025-10-03 17:43:48 | INFO     | app.db.redis_client:close:185 - Redis connection closed
 2025-10-03 17:43:48 | INFO     | app.main:lifespan:53 - Application shutdown complete
+2025-10-04 12:48:39 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-04 12:48:39 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-04 12:48:39 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-04 12:48:39 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-04 12:48:39 | INFO     | __main__:main:79 - ==================================================
+2025-10-04 12:48:39 | INFO     | __main__:main:80 - Phase 1: Immediate Fixes - Testing
+2025-10-04 12:48:39 | INFO     | __main__:main:81 - ==================================================
+2025-10-04 12:48:39 | INFO     | __main__:test_auth_endpoints:16 - Testing authentication endpoints...
+2025-10-04 12:48:43 | ERROR    | __main__:test_auth_endpoints:47 - ✗ Auth test failed: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/v1/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AF1106A0C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-04 12:48:43 | INFO     | __main__:test_working_client:51 - Testing working FL client...
+2025-10-04 12:48:56 | INFO     | app.fl.client.client_app_working:__init__:73 - Initializing working FL client for hospital test_auth
+2025-10-04 12:48:56 | INFO     | app.fl.client.client_app_working:__init__:74 - Using device: cpu
+2025-10-04 13:08:30 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-04 13:08:30 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-04 13:08:30 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-04 13:08:30 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-04 13:08:31 | INFO     | __main__:main:67 - ============================================================
+2025-10-04 13:08:31 | INFO     | __main__:main:68 - REAL MODEL TRAINING & PREDICTION TEST
+2025-10-04 13:08:31 | INFO     | __main__:main:69 - ============================================================
+2025-10-04 13:08:31 | INFO     | __main__:main:72 - 
+1. Starting new training session...
+2025-10-04 13:08:31 | INFO     | __main__:start_real_training:17 - Starting real FL training session...
+2025-10-04 13:08:31 | ERROR    | app.services.training:_run_fl_server:132 - FL server for session 1 failed: c:\Users\Aman\Documents\Cross-Hospital-Surgical-Optimization\backend\myenv\python.exe: No module named flwr.server.__main__; 'flwr.server' is a package and cannot be directly executed
+
+2025-10-04 13:08:36 | INFO     | app.services.training:start_training:94 - Started training session 1 with 2 hospitals
+2025-10-04 13:08:36 | INFO     | __main__:start_real_training:27 - Training session started: surgical_fl_20251004_130831
+2025-10-04 13:08:36 | INFO     | __main__:start_real_training:28 - Session ID: 1
+2025-10-04 13:08:36 | INFO     | __main__:start_real_training:29 - Number of rounds: 3
+2025-10-04 13:08:36 | INFO     | __main__:start_real_training:32 - Waiting for training to complete...
+2025-10-04 13:08:36 | INFO     | __main__:start_real_training:38 - Training failed!
+2025-10-04 13:08:36 | INFO     | __main__:main:82 - 
+2. Training completed! Now you can test predictions.
+2025-10-04 13:08:36 | INFO     | __main__:main:83 - 
+Next steps:
+2025-10-04 13:08:36 | INFO     | __main__:main:84 -    - Start the server: python -m uvicorn app.main:app --reload
+2025-10-04 13:08:36 | INFO     | __main__:main:85 -    - Use the prediction endpoints to test the trained model
+2025-10-04 13:08:36 | INFO     | __main__:main:86 -    - Check /docs for API documentation
+2025-10-04 13:19:50 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-04 13:19:50 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-04 13:19:50 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-04 13:19:50 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-04 13:19:50 | INFO     | __main__:main:87 - ============================================================
+2025-10-04 13:19:50 | INFO     | __main__:main:88 - QUICK SETUP & TEST
+2025-10-04 13:19:50 | INFO     | __main__:main:89 - ============================================================
+2025-10-04 13:19:50 | INFO     | __main__:create_test_training_session:17 - Creating test training session...
+2025-10-04 13:19:50 | INFO     | __main__:create_test_training_session:54 - ✓ Created test training session: test_fl_20251004_131950
+2025-10-04 13:19:50 | INFO     | __main__:create_test_training_session:55 - ✓ Session ID: 2
+2025-10-04 13:19:50 | INFO     | __main__:create_test_training_session:56 - ✓ Final loss: 0.45
+2025-10-04 13:19:50 | INFO     | __main__:test_prediction_manager:64 - Testing prediction manager...
+2025-10-04 13:19:50 | ERROR    | __main__:test_prediction_manager:81 - ✗ Prediction manager test failed: No module named 'app.api.v1.endpoints.predictions'
+2025-10-04 13:19:50 | ERROR    | __main__:main:118 - 
+❌ Setup failed. Please check the errors above.
+2025-10-04 13:20:23 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-04 13:20:23 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-04 13:20:23 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-04 13:20:23 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-04 13:20:23 | INFO     | __main__:main:87 - ============================================================
+2025-10-04 13:20:23 | INFO     | __main__:main:88 - QUICK SETUP & TEST
+2025-10-04 13:20:23 | INFO     | __main__:main:89 - ============================================================
+2025-10-04 13:20:23 | INFO     | __main__:create_test_training_session:17 - Creating test training session...
+2025-10-04 13:20:23 | INFO     | __main__:create_test_training_session:26 - ✓ Found existing trained model: test_fl_20251004_131950
+2025-10-04 13:20:23 | INFO     | __main__:test_prediction_manager:64 - Testing prediction manager...
+2025-10-04 13:20:25 | INFO     | app.api.v1.endpoints.predictions:load_latest_model:109 - Loaded model: test_fl_20251004_131950
+2025-10-04 13:20:25 | INFO     | app.api.v1.endpoints.predictions:load_latest_model:110 - Final loss: 0.45
+2025-10-04 13:20:25 | INFO     | __main__:test_prediction_manager:72 - ✓ Prediction manager loaded model successfully
+2025-10-04 13:20:25 | INFO     | __main__:test_prediction_manager:73 - ✓ Model: test_fl_20251004_131950
+2025-10-04 13:20:25 | INFO     | __main__:test_prediction_manager:74 - ✓ Final loss: 0.45
+2025-10-04 13:20:25 | INFO     | __main__:main:98 - 
+🎉 Setup completed successfully!
+2025-10-04 13:20:25 | INFO     | __main__:main:99 - 
+Next steps:
+2025-10-04 13:20:25 | INFO     | __main__:main:100 - 1. Start server: python -m uvicorn app.main:app --reload
+2025-10-04 13:20:25 | INFO     | __main__:main:101 - 2. Visit: http://localhost:8000/docs
+2025-10-04 13:20:25 | INFO     | __main__:main:102 - 3. Test predictions with the trained model
+2025-10-04 13:20:25 | INFO     | __main__:main:103 - 
+Sample prediction body:
+2025-10-04 13:20:25 | INFO     | __main__:main:104 - 
+{
+  "patient_age": 65,
+  "patient_gender": "male",
+  "patient_bmi": 28.5,
+  "medical_history": ["Hypertension", "Diabetes"],
+  "current_medications": ["Aspirin", "Metformin"],
+  "surgery_type": "cardiac",
+  "procedure_name": "CABG",
+  "urgency": "elective",
+  "surgeon_experience_years": 15,
+  "hospital_volume": "high"
+}
+2025-10-07 18:49:47 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-07 18:49:47 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-07 18:49:47 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-07 18:49:47 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-07 18:49:48 | INFO     | __main__:main:202 - ==================================================
+2025-10-07 18:49:48 | INFO     | __main__:main:203 - FL Components Test (Simplified - No TRL)
+2025-10-07 18:49:48 | INFO     | __main__:main:204 - ==================================================
+2025-10-07 18:49:48 | INFO     | __main__:main:217 - 
+Mock Data Files:
+2025-10-07 18:49:48 | INFO     | __main__:main:218 - ------------------------------
+2025-10-07 18:49:48 | INFO     | __main__:test_mock_data_exists:18 - Testing mock data existence...
+2025-10-07 18:49:48 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 1: 100 cases found
+2025-10-07 18:49:48 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 2: 100 cases found
+2025-10-07 18:49:48 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 3: 100 cases found
+2025-10-07 18:49:48 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 4: 100 cases found
+2025-10-07 18:49:48 | INFO     | __main__:main:217 - 
+Configuration Files:
+2025-10-07 18:49:48 | INFO     | __main__:main:218 - ------------------------------
+2025-10-07 18:49:48 | INFO     | __main__:test_config_exists:45 - Testing configuration files...
+2025-10-07 18:49:48 | INFO     | __main__:test_config_exists:49 - ✓ Config file exists: app\fl\config\model_config.yaml
+2025-10-07 18:49:48 | INFO     | __main__:test_config_exists:56 - ✓ Config file is readable
+2025-10-07 18:49:48 | INFO     | __main__:main:217 - 
+Database Connection:
+2025-10-07 18:49:48 | INFO     | __main__:main:218 - ------------------------------
+2025-10-07 18:49:48 | INFO     | __main__:test_database_connection:68 - Testing database connection...
+2025-10-07 18:49:52 | ERROR    | __main__:test_database_connection:78 - ✗ Database connection failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5435 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5435 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-07 18:49:52 | INFO     | __main__:test_database_connection:79 -   Make sure PostgreSQL container is running
+2025-10-07 18:49:52 | INFO     | __main__:main:217 - 
+Hospital Records:
+2025-10-07 18:49:52 | INFO     | __main__:main:218 - ------------------------------
+2025-10-07 18:49:52 | INFO     | __main__:test_hospitals_in_db:85 - Testing hospital records...
+2025-10-07 18:49:57 | ERROR    | __main__:test_hospitals_in_db:123 - ✗ Hospital check failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5435 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5435 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-07 18:49:57 | INFO     | __main__:main:217 - 
+Simplified FL Client:
+2025-10-07 18:49:57 | INFO     | __main__:main:218 - ------------------------------
+2025-10-07 18:49:57 | INFO     | __main__:test_simple_fl_client:129 - Testing simplified FL client...
+2025-10-07 21:15:18 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-07 21:15:18 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-07 21:15:18 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-07 21:15:18 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-07 21:15:19 | INFO     | __main__:main:202 - ==================================================
+2025-10-07 21:15:19 | INFO     | __main__:main:203 - FL Components Test (Simplified - No TRL)
+2025-10-07 21:15:19 | INFO     | __main__:main:204 - ==================================================
+2025-10-07 21:15:19 | INFO     | __main__:main:217 - 
+Mock Data Files:
+2025-10-07 21:15:19 | INFO     | __main__:main:218 - ------------------------------
+2025-10-07 21:15:19 | INFO     | __main__:test_mock_data_exists:18 - Testing mock data existence...
+2025-10-07 21:15:19 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 1: 100 cases found
+2025-10-07 21:15:19 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 2: 100 cases found
+2025-10-07 21:15:19 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 3: 100 cases found
+2025-10-07 21:15:19 | INFO     | __main__:test_mock_data_exists:27 - ✓ Hospital 4: 100 cases found
+2025-10-07 21:15:19 | INFO     | __main__:main:217 - 
+Configuration Files:
+2025-10-07 21:15:19 | INFO     | __main__:main:218 - ------------------------------
+2025-10-07 21:15:19 | INFO     | __main__:test_config_exists:45 - Testing configuration files...
+2025-10-07 21:15:19 | INFO     | __main__:test_config_exists:49 - ✓ Config file exists: app\fl\config\model_config.yaml
+2025-10-07 21:15:19 | INFO     | __main__:test_config_exists:56 - ✓ Config file is readable
+2025-10-07 21:15:19 | INFO     | __main__:main:217 - 
+Database Connection:
+2025-10-07 21:15:19 | INFO     | __main__:main:218 - ------------------------------
+2025-10-07 21:15:19 | INFO     | __main__:test_database_connection:68 - Testing database connection...
+2025-10-07 21:15:19 | INFO     | __main__:test_database_connection:75 - ✓ Database connection successful
+2025-10-07 21:15:19 | INFO     | __main__:main:217 - 
+Hospital Records:
+2025-10-07 21:15:19 | INFO     | __main__:main:218 - ------------------------------
+2025-10-07 21:15:19 | INFO     | __main__:test_hospitals_in_db:85 - Testing hospital records...
+2025-10-07 21:15:19 | INFO     | __main__:test_hospitals_in_db:115 - ✓ Found 4 hospitals
+2025-10-07 21:15:19 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP001: Test Hospital 1
+2025-10-07 21:15:19 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP002: Test Hospital 2
+2025-10-07 21:15:19 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP003: Test Hospital 3
+2025-10-07 21:15:19 | INFO     | __main__:test_hospitals_in_db:118 -   - HOSP004: Test Hospital 4
+2025-10-07 21:15:19 | INFO     | __main__:main:217 - 
+Simplified FL Client:
+2025-10-07 21:15:19 | INFO     | __main__:main:218 - ------------------------------
+2025-10-07 21:15:19 | INFO     | __main__:test_simple_fl_client:129 - Testing simplified FL client...
+2025-10-07 21:15:21 | INFO     | app.fl.client.client_app_simple:__init__:24 - Initializing simplified FL client for hospital 1
+2025-10-07 21:15:21 | INFO     | app.fl.client.client_app_simple:fit:43 - Hospital 1: Round 1
+2025-10-07 21:15:21 | INFO     | __main__:test_simple_fl_client:153 - ✓ Simplified FL client works
+2025-10-07 21:15:21 | INFO     | __main__:test_simple_fl_client:154 -   Samples: 100
+2025-10-07 21:15:21 | INFO     | __main__:test_simple_fl_client:155 -   Loss: 1.8251
+2025-10-07 21:15:21 | INFO     | __main__:main:217 - 
+Training Service:
+2025-10-07 21:15:21 | INFO     | __main__:main:218 - ------------------------------
+2025-10-07 21:15:21 | INFO     | __main__:test_training_service:180 - Testing training service...
+2025-10-07 21:15:21 | INFO     | __main__:test_training_service:184 - ✓ Training service can be imported
+2025-10-07 21:15:21 | INFO     | __main__:test_training_service:188 - ✓ Active sessions: 0
+2025-10-07 21:15:21 | INFO     | __main__:main:227 - 
+==================================================
+2025-10-07 21:15:21 | INFO     | __main__:main:228 - Test Summary
+2025-10-07 21:15:21 | INFO     | __main__:main:229 - ==================================================
+2025-10-07 21:15:21 | INFO     | __main__:main:233 - Mock Data Files: ✓ PASSED
+2025-10-07 21:15:21 | INFO     | __main__:main:233 - Configuration Files: ✓ PASSED
+2025-10-07 21:15:21 | INFO     | __main__:main:233 - Database Connection: ✓ PASSED
+2025-10-07 21:15:21 | INFO     | __main__:main:233 - Hospital Records: ✓ PASSED
+2025-10-07 21:15:21 | INFO     | __main__:main:233 - Simplified FL Client: ✓ PASSED
+2025-10-07 21:15:21 | INFO     | __main__:main:233 - Training Service: ✓ PASSED
+2025-10-07 21:15:21 | INFO     | __main__:main:238 - 
+✅ All tests passed!
+2025-10-07 21:15:21 | INFO     | __main__:main:239 - 
+Next: Start the API server
+2025-10-07 21:15:21 | INFO     | __main__:main:240 -   python -m uvicorn app.main:app --reload
+2025-10-07 22:21:32 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-07 22:21:32 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-07 22:21:32 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-07 22:21:32 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-07 22:32:57 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-07 22:32:57 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-07 22:32:57 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-07 22:32:57 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-07 22:34:24 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-07 22:34:24 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-07 22:34:24 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-07 22:34:24 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-07 22:34:39 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-07 22:34:39 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-07 22:34:39 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-07 22:34:39 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-07 22:35:37 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-07 22:35:37 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-07 22:35:37 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-07 22:35:37 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-07 23:27:42 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-07 23:27:42 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-07 23:27:42 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-07 23:27:42 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-07 23:29:07 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-07 23:29:07 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-07 23:29:07 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-07 23:29:07 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-07 23:29:08 | INFO     | app.db.redis_client:_connect:45 - Successfully connected to Redis
+2025-10-07 23:29:43 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-07 23:29:43 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-07 23:29:43 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-07 23:29:43 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-07 23:29:44 | INFO     | app.db.redis_client:_connect:45 - Successfully connected to Redis
+2025-10-07 23:29:44 | INFO     | app.main:lifespan:24 - Starting up Surgical Optimizer application...
+2025-10-07 23:29:44 | INFO     | app.db.base:init_db:78 - Database tables created successfully
+2025-10-07 23:29:44 | INFO     | app.main:lifespan:29 - Database initialized successfully
+2025-10-07 23:29:44 | INFO     | app.main:lifespan:36 - Redis connection established
+2025-10-07 23:29:44 | INFO     | app.main:lifespan:40 - Application startup complete
+2025-10-07 23:30:01 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-07 23:30:01 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-07 23:30:01 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-07 23:30:01 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-07 23:31:09 | INFO     | app.main:lifespan:45 - Shutting down application...
+2025-10-07 23:31:09 | INFO     | app.db.redis_client:close:185 - Redis connection closed
+2025-10-07 23:31:09 | INFO     | app.main:lifespan:53 - Application shutdown complete
+2025-10-07 23:31:09 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-07 23:31:09 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-07 23:31:09 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-07 23:31:09 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-07 23:31:10 | INFO     | app.db.redis_client:_connect:45 - Successfully connected to Redis
+2025-10-07 23:31:10 | INFO     | app.main:lifespan:24 - Starting up Surgical Optimizer application...
+2025-10-07 23:31:10 | INFO     | app.db.base:init_db:78 - Database tables created successfully
+2025-10-07 23:31:10 | INFO     | app.main:lifespan:29 - Database initialized successfully
+2025-10-07 23:31:10 | INFO     | app.main:lifespan:36 - Redis connection established
+2025-10-07 23:31:10 | INFO     | app.main:lifespan:40 - Application startup complete
+2025-10-07 23:31:11 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-07 23:31:11 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-07 23:31:11 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-07 23:31:11 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-07 23:31:11 | INFO     | app.db.redis_client:_connect:45 - Successfully connected to Redis
+2025-10-07 23:31:11 | INFO     | app.main:lifespan:24 - Starting up Surgical Optimizer application...
+2025-10-07 23:31:11 | INFO     | app.db.base:init_db:78 - Database tables created successfully
+2025-10-07 23:31:11 | INFO     | app.main:lifespan:29 - Database initialized successfully
+2025-10-07 23:31:11 | INFO     | app.main:lifespan:36 - Redis connection established
+2025-10-07 23:31:11 | INFO     | app.main:lifespan:40 - Application startup complete
+2025-10-07 23:31:14 | INFO     | app.main:lifespan:45 - Shutting down application...
+2025-10-07 23:31:14 | INFO     | app.db.redis_client:close:185 - Redis connection closed
+2025-10-07 23:31:14 | INFO     | app.main:lifespan:53 - Application shutdown complete
+2025-10-07 23:31:18 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-07 23:31:18 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-07 23:31:18 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-07 23:31:18 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-07 23:31:19 | INFO     | app.db.redis_client:_connect:45 - Successfully connected to Redis
+2025-10-07 23:31:19 | INFO     | app.main:lifespan:24 - Starting up Surgical Optimizer application...
+2025-10-07 23:31:19 | INFO     | app.db.base:init_db:78 - Database tables created successfully
+2025-10-07 23:31:19 | INFO     | app.main:lifespan:29 - Database initialized successfully
+2025-10-07 23:31:19 | INFO     | app.main:lifespan:36 - Redis connection established
+2025-10-07 23:31:19 | INFO     | app.main:lifespan:40 - Application startup complete
+2025-10-07 23:31:29 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-07 23:31:29 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-07 23:31:29 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-07 23:31:29 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-07 23:32:02 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-07 23:32:02 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-07 23:32:02 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-07 23:32:02 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-08 01:40:04 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-08 01:40:04 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-08 01:40:04 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-08 01:40:04 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-08 01:48:16 | INFO     | app.main:lifespan:45 - Shutting down application...
+2025-10-08 01:48:16 | INFO     | app.db.redis_client:close:185 - Redis connection closed
+2025-10-08 01:48:16 | INFO     | app.main:lifespan:53 - Application shutdown complete
+2025-10-08 01:48:17 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-08 01:48:17 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-08 01:48:17 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-08 01:48:17 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-08 01:48:18 | INFO     | app.db.redis_client:_connect:45 - Successfully connected to Redis
+2025-10-08 01:48:18 | INFO     | app.main:lifespan:24 - Starting up Surgical Optimizer application...
+2025-10-08 01:48:18 | INFO     | app.db.base:init_db:78 - Database tables created successfully
+2025-10-08 01:48:18 | INFO     | app.main:lifespan:29 - Database initialized successfully
+2025-10-08 01:48:18 | INFO     | app.main:lifespan:36 - Redis connection established
+2025-10-08 01:48:18 | INFO     | app.main:lifespan:40 - Application startup complete
+2025-10-08 01:48:19 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-08 01:48:19 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-08 01:48:19 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-08 01:48:19 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-08 01:48:19 | INFO     | app.db.redis_client:_connect:45 - Successfully connected to Redis
+2025-10-08 01:48:19 | INFO     | app.main:lifespan:24 - Starting up Surgical Optimizer application...
+2025-10-08 01:48:19 | INFO     | app.db.base:init_db:78 - Database tables created successfully
+2025-10-08 01:48:19 | INFO     | app.main:lifespan:29 - Database initialized successfully
+2025-10-08 01:48:19 | INFO     | app.main:lifespan:36 - Redis connection established
+2025-10-08 01:48:19 | INFO     | app.main:lifespan:40 - Application startup complete
+2025-10-08 01:49:42 | INFO     | app.main:lifespan:45 - Shutting down application...
+2025-10-08 01:49:42 | INFO     | app.db.redis_client:close:185 - Redis connection closed
+2025-10-08 01:49:42 | INFO     | app.main:lifespan:53 - Application shutdown complete
+2025-10-08 01:49:43 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-08 01:49:43 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-08 01:49:43 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-08 01:49:43 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-08 01:49:43 | INFO     | app.db.redis_client:_connect:45 - Successfully connected to Redis
+2025-10-08 01:49:43 | INFO     | app.main:lifespan:24 - Starting up Surgical Optimizer application...
+2025-10-08 01:49:43 | INFO     | app.db.base:init_db:78 - Database tables created successfully
+2025-10-08 01:49:43 | INFO     | app.main:lifespan:29 - Database initialized successfully
+2025-10-08 01:49:43 | INFO     | app.main:lifespan:36 - Redis connection established
+2025-10-08 01:49:43 | INFO     | app.main:lifespan:40 - Application startup complete
+2025-10-08 01:49:44 | INFO     | app.utils.logger:setup_logging:71 - Starting Surgical-Optimizer v1.0.0
+2025-10-08 01:49:44 | INFO     | app.utils.logger:setup_logging:72 - Environment: development
+2025-10-08 01:49:44 | INFO     | app.utils.logger:setup_logging:73 - Debug mode: True
+2025-10-08 01:49:44 | INFO     | app.utils.logger:setup_logging:74 - Log level: INFO
+2025-10-08 01:49:44 | INFO     | app.db.redis_client:_connect:45 - Successfully connected to Redis
+2025-10-08 01:49:45 | INFO     | app.main:lifespan:24 - Starting up Surgical Optimizer application...
+2025-10-08 01:49:45 | INFO     | app.db.base:init_db:78 - Database tables created successfully
+2025-10-08 01:49:45 | INFO     | app.main:lifespan:29 - Database initialized successfully
+2025-10-08 01:49:45 | INFO     | app.main:lifespan:36 - Redis connection established
+2025-10-08 01:49:45 | INFO     | app.main:lifespan:40 - Application startup complete
+2025-10-08 01:49:45 | INFO     | app.api.v1.endpoints.auth:login_user:142 - User logged in: admin@surgical-optimizer.com
